@@ -11,7 +11,7 @@ const ProductSection = () => {
         {product.map((item, i) => (
           <div key={item.name} className="">
             <img src={item.img} alt="" className="w-full" />
-            <p className=" font-bold text-xl text-white p-3 text-center bg-blue-900 w-full">
+            <p className=" font-bold text-white p-1 text-center bg-blue-900 w-full">
               {item.name}
             </p>
           </div>
@@ -19,7 +19,7 @@ const ProductSection = () => {
         <Link
           href={"/product"}
           style={{ writingMode: "vertical-lr" }}
-          className="hidden md:block text-center p-2 font-bold border hover:bg-blue-900 hover:text-white transition-all"
+          className="hidden md:block text-center p-2 font-bold border hover:bg-blue-900 hover:text-white transition-all hover:translate-x-2"
         >
           View more
         </Link>

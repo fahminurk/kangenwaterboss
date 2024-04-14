@@ -5,7 +5,7 @@ import { certified } from "@/constants";
 export default function Home() {
   return (
     <div className="flex flex-col gap-10">
-      <div className="relative mt-5">
+      <div className="relative">
         <img
           src="/1.jpg"
           alt=""
