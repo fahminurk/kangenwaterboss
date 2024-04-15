@@ -1,5 +1,4 @@
 import { product } from "@/constants";
-import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
 

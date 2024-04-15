@@ -163,7 +163,7 @@ Due to the lower power consumption and fewer plates, this machine is recommended
   {
     name: "Leveluk Kangen 8",
     price: 64491000,
-    img: "/Leveluk_kangen8.jpg",
+    img: "/Leveluk_Kangen8.jpg",
     desc: `Kangen Water machine K8 is our newest model and become most powerful antioxidant producer because of its additional plates.
 
 Using 8 plates increases the electrolysis surface area, improves water ionization, and heightens the antioxidant production potential (up to -850 mV). Not only drinking water, you can also produce 5 types of water easily with just a press of a button. 
@@ -188,7 +188,7 @@ Equipped with full touch screen LCD panel and able to speak up to 8 Languages, L
   {
     name: "Leveluk SUPER 501",
     price: 69375000,
-    img: "/Leveluk_super501.jpg",
+    img: "/Leveluk_Super501.jpg",
     desc: `Kangen Water machine Super 501 is design for super heavy use, suitable for small business such as cafe, restaurant, office, clinic or if you have large family in your home. 
 
 Built with 7 and 5 electrode plates, a twin hose system, a built-in tank for the electrolysis enhancer, and a water pressure regulating function making this machine very great if you need to produce much water daily.
