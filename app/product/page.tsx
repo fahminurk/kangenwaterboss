@@ -1,12 +1,6 @@
 import { product } from "@/constants";
 import React from "react";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { formatToIDR } from "@/lib/utils";
 import Link from "next/link";
 

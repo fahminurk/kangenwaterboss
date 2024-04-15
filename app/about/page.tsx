@@ -46,7 +46,7 @@ Get fast and efficient support from our experienced technicians and internationa
     },
   ];
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-10 pb-5">
       <div className="flex flex-col  gap-5 lg:gap-0 [&>*:nth-child(even)]:flex-row-reverse">
         {about.map((item) => (
           <div key={item.title} className="lg:flex">
