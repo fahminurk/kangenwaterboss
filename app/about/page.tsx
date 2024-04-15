@@ -53,7 +53,7 @@ Get fast and efficient support from our experienced technicians and internationa
             <div className="lg:w-1/2 flex justify-center items-center bg-gradient-to-t lg:bg-gradient-to-l from-white via-blue-500 to-blue-900 h-96 p-4">
               <p className="text-3xl font-bold text-white">{item.title}</p>
             </div>
-            <div className="text-lg lg:w-1/2 flex justify-center items-center px-20 bg-white">
+            <div className="text-lg lg:w-1/2 flex justify-center items-center px-12 md:px-20 bg-white">
               <p className="text-justify text-sm md:text-base">{item.desc}</p>
             </div>
           </div>
@@ -62,7 +62,7 @@ Get fast and efficient support from our experienced technicians and internationa
 
       <div className="flex flex-col gap-10 container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-          <div className="flex-col md:sticky top-14 text-center md:text-start  h-max flex row-span-2 gap-2">
+          <div className="flex-col text-center md:text-start  h-max flex row-span-2 gap-2">
             <p className="text-blue-700 ">Our Certifications</p>
             <p className="text-xl font-bold">
               International Awards and Certifications

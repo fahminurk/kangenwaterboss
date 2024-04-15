@@ -12,8 +12,8 @@ export default function Home() {
           className="w-full h-96 sm:h-[450px] lg:h-auto object-cover grayscale"
         />
         <div className="absolute flex justify-center items-center top-0 w-full h-full">
-          <div className=" p-5 rounded-lg">
-            <p className="font-bold text-5xl sm:text-7xl bg-gradient-to-b from-blue-300 via-blue-500 to-blue-900 text-transparent bg-clip-text">
+          <div className="text-center p-5 rounded-lg">
+            <p className="font-bold text-4xl sm:text-7xl bg-gradient-to-b from-blue-300 via-blue-500 to-blue-900 text-transparent bg-clip-text">
               KANGEN WATER
             </p>
             <p className="text-center tracking-widest px-2 font-bold text-white bg-blue-900">

@@ -3,10 +3,10 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className=" flex flex-col gap-5">
-      <div className="flex flex-col justify-center items-center gap-5 bg-gradient-to-b from-blue-900 to-white p-10">
-        <div className="flex flex-col items-center gap-5 rounded-xl p-10 bg-gradient-to-b">
-          <p className="font-bold text-2xl md:text-6xl text-white">
+    <div className=" flex flex-col gap-5 pb-10">
+      <div className="flex flex-col justify-center items-center gap-5 bg-gradient-to-b from-blue-900 to-white p-5">
+        <div className="flex flex-col items-center gap-5 rounded-xl p-10 bg-white md:bg-gradient-to-b">
+          <p className="font-bold text-2xl md:text-6xl text-blue-900 md:text-white">
             What is Kangen Water?
           </p>
           <p className="text-justify font-serif max-w-[600px] text-blue-900">
@@ -41,7 +41,7 @@ const page = () => {
         <div className="flex flex-col gap-10 lg:gap-0 [&>*:nth-child(even)]:flex-row-reverse">
           {kangen.map((item) => (
             <div key={item.title} className="lg:flex">
-              <div className="lg:w-1/2 flex justify-center items-center h-96 lg:p-5">
+              <div className="lg:w-1/2 flex justify-center items-center h-60 md:h-96 lg:p-5">
                 <img src={item.img} alt="" />
               </div>
               <div className="text-lg lg:w-1/2 flex justify-center items-center lg:px-20 lg:border">
