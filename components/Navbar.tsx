@@ -11,6 +11,13 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { createSharedPathnamesNavigation } from "next-intl/navigation";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -43,14 +50,15 @@ const Navbar = () => {
       <div
         id="navbar"
         className={cn(
-          "p-4 border-y flex justify-center bg-blue-900 z-10 sticky -top-0.5 transition-all",
+          "p-4 border-y flex justify-between w-full bg-blue-900 z-10 sticky -top-0.5 transition-all",
           isScrolled && "bg-white/70 backdrop-blur"
         )}
       >
+        <div />
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <Link href="/" legacyBehavior passHref>
+              <Link href="/" passHref legacyBehavior>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Home
                 </NavigationMenuLink>
@@ -98,13 +106,13 @@ const Navbar = () => {
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
-            <Link href="/product" legacyBehavior passHref>
+            <Link href="/product" passHref legacyBehavior>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Product
               </NavigationMenuLink>
             </Link>
             <NavigationMenuItem>
-              <Link href="/contact" legacyBehavior passHref>
+              <Link href="/contact" passHref legacyBehavior>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Contact
                 </NavigationMenuLink>
@@ -112,11 +120,17 @@ const Navbar = () => {
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
-        <div className="flex gap-2">
-          <Link href="/" locale="en">
+        <div
+          className={cn(
+            "flex justify-end gap-1 items-center",
+            isScrolled ? "text-black" : "text-white"
+          )}
+        >
+          <Link href="/" locale="en" className="hover:text-white/50">
             EN
           </Link>
-          <Link href="/" locale="id">
+          <div className="w-0.5 h-full bg-white" />
+          <Link href="/" locale="id" className="hover:text-white/50">
             ID
           </Link>
         </div>

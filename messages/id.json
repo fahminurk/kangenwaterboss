@@ -46,51 +46,153 @@
   },
   "About": {
     "kangen": {
-      "title": "",
-      "desc": ""
+      "title": "Apa itu Kangen Water?",
+      "desc": "Kangen Water adalah nama air minum alkali yang dibuat melalui proses elektrolisis menggunakan mesin ionzer air buatan perusahaan Jepang kami, Enagic, yang telah berdiri sejak tahun 1974."
     },
     "made": {
-      "title": "",
-      "desc": ""
+      "title": "Buatan Jepang",
+      "desc": "Mesin kami dirakit secara individual oleh pengrajin dan kemudian diperiksa, diuji, dan disertifikasi oleh insinyur QC yang sangat terlatih. Dapatkan dukungan cepat dan efisien dari teknisi kami yang berpengalaman dan pusat layanan internasional bila diperlukan. Selalu tanyakan kepada penyedia sistem ionisasi air Anda tentang jenis layanan dukungan dan garansi yang akan Anda dapatkan dari mereka."
     },
     "history": {
-      "title": "",
-      "desc": ""
+      "title": "Sejarah",
+      "desc": "Pada tahun 1974 di Okinawa, Jepang, operasi perdagangan Sony, pendahulu Enagic, mulai beroperasi. Sejak saat itu, komitmen Enagic terhadap produk berkualitas tinggi, inovasi, dan filosofi Kesehatan Sejati telah menjadikannya pemimpin dalam sistem penghasil ionisasi air, yang kini didistribusikan secara global."
     },
     "Certifications": {
-      "header": "",
-      "title": "",
-      "desc": ""
+      "header": "Sertifikasi kami",
+      "title": "Penghargaan dan Sertifikasi Internasional",
+      "desc": "Enagic Kangen Water International telah menerima banyak PENGHARGAAN dan SERTIFIKASI dari organisasi pihak ketiga yang sangat dihormati, seperti ISO, WQA, DSA, dll."
     },
     "iso": {
-      "title": "",
-      "desc": "",
-      "img": ""
+      "title": "ISO",
+      "desc": "Perusahaan kami bersertifikat ISO 9001, ISO 14001, dan ISO 13485 untuk pengendalian kualitas dan pengelolaan lingkungan dari Organisasi Internasional untuk Standardisasi (ISO).",
+      "img": "/iso.png"
     },
     "wqa": {
-      "title": "",
-      "desc": "",
-      "img": ""
+      "title": "WQA",
+      "desc": "Sertifikasi Segel Emas telah diberikan kepada perusahaan kami oleh Water Quality Association (WQA).",
+      "img": "/wqa_low.png"
     },
     "dsa": {
-      "title": "",
-      "desc": "",
-      "img": ""
+      "title": "DSA",
+      "desc": "Perusahaan kami adalah anggota yang bereputasi baik dari Direct Selling Association (DSA) yang bergengsi.",
+      "img": "/dsa.png"
     },
     "bbb": {
-      "title": "",
-      "desc": "",
-      "img": ""
+      "title": "BBB",
+      "desc": "Perusahaan kami menerima akreditasi A+ yang diberikan oleh Better Business Bureau (BBB)",
+      "img": "/bbb.png"
     },
-    "executive": {
-      "desc": "",
-      "hironari": {
-        "name": "",
-        "desc": ""
-      },
-      "yaeko": {
-        "name": "",
-        "desc": ""
+    "executive": "Sejak didirikan pada tahun 1974, Enagic telah diakui sebagai produsen terkemuka dan terspesialisasi dalam sistem pembangkit ionisasi air berkualitas tinggi. Tubuh manusia terdiri dari 70% air. Tidaklah berlebihan jika dikatakan bahwa dasar vitalitas dan umur panjang adalah air. Enagic menawarkan air aman yang dapat digunakan dengan percaya diri untuk memberikan manfaat bagi kesehatan, kecantikan, pembersihan, dan masakan. Enagic adalah perusahaan pengembangan, manufaktur, penjualan dan layanan terintegrasi teknologi ionisasi alkali. Seiring dengan berlanjutnya evolusi teknologi informasi, kita telah memasuki era pemasaran teknologi manusia. Vitalitas pasar kini bergantung pada perpaduan teknologi tinggi dan hubungan pribadi antar manusia. Enagic bekerja sama dengan jaringan kantor internasional dan sejumlah distributor di seluruh dunia untuk menyebarkan berita tentang air dan kesehatan sambil membangun perusahaan global yang beroperasi di seluruh dunia."
+  },
+  "Water_type": {
+    "strong": {
+      "title": "Strong Kangen Water (pH 11)",
+      "desc": "Bukan untuk diminum. Strong Kangen Water menjaga kebersihan dalam kehidupan sehari-hari Anda karena efek pembersihannya yang kuat. Ini memiliki manfaat pelarutan dan penghantar panas. Penggunaan: persiapan dan pembersihan makanan.",
+      "ket": {
+        "1": {
+          "title": "Persiapan Makanan",
+          "desc": "Hilangkan sifat mentah dari sayuran seperti daun bawang, bambu, wasabi dan pakis berbunga dengan Strong Kangen Water."
+        },
+        "2": {
+          "title": "Pembersihan",
+          "desc": "Bersihkan talenan dan serbet. Baik untuk membersihkan minyak dan kotoran membandel dari ventilasi, serta untuk pembersihan umum di dapur."
+        },
+        "3": {
+          "title": "Cucian piring",
+          "desc": "Gunakan lebih sedikit deterjen saat mencuci piring. Menghemat tagihan air, karena hanya sepertiga hingga seperempat jumlah air biasa yang cukup untuk membilas deterjen."
+        },
+        "4": {
+          "title": "Penghapusan Noda",
+          "desc": "Kekuatan ekstra, daya serapnya, akan menghilangkan noda kopi, kecap, dan minyak dengan mudah. Juga bagus untuk menghilangkan noda toilet yang membandel."
+        }
+      }
+    },
+    "kangen": {
+      "title": "Kangen Water (pH 8.5 - 9.5)",
+      "desc": "Air jenis ini sangat cocok untuk minum dan memasak sehat. Air kaya hidrogen yang direduksi secara elektrolitik ini berfungsi mengembalikan tubuh Anda ke keadaan yang lebih basa, yang optimal untuk kesehatan yang baik. Penggunaan: minum, menyiapkan makanan, kopi dan teh, sup dan semur, dan menyiram tanaman.",
+      "ket": {
+        "1": {
+          "title": "Minum",
+          "desc": "Minumlah Kangen Water sepanjang hari. Berbeda dengan air keran, Kangen Water tidak memiliki bau yang tidak sedap, rasanya lebih ringan, dan memiliki rasa manis yang menyenangkan."
+        },
+        "2": {
+          "title": "Persiapan Makanan",
+          "desc": "Hilangkan sifat mentah dari sayuran seperti daun bawang, bambu, wasabi dan pakis berbunga dengan Strong Kangen Water."
+        },
+        "3": {
+          "title": "Memasak",
+          "desc": "Kangen Water menghilangkan rasa dari bahan-bahan sehingga menjadi empuk dan juicy. Oleh karena itu, makanan tidak memerlukan banyak bumbu, dan kelebihan garam dapat dihindari."
+        },
+        "4": {
+          "title": "",
+          "desc": ""
+        }
+      }
+    },
+    "clean": {
+      "title": "Clean Water (pH 7)",
+      "desc": "Bebas klorin, karat dan kekeruhan. Air netral adalah air minum yang nikmat. Kegunaan: menyiapkan makanan bayi, minum obat.",
+      "ket": {
+        "1": {
+          "title": "Makanan bayi",
+          "desc": "Gunakan air pH 7,0 saat menyiapkan makanan bayi."
+        },
+        "2": {
+          "title": "Pengobatan",
+          "desc": "Air netral adalah air minum nikmat yang mudah diserap oleh tubuh Anda. Minum obatmu dengan air ini."
+        },
+        "3": {
+          "title": "",
+          "desc": ""
+        },
+        "4": {
+          "title": "",
+          "desc": ""
+        }
+      }
+    },
+    "beauty": {
+      "title": "Beauty Water (pH 4 - 6)",
+      "desc": "Bukan untuk diminum. Air yang sedikit asam ini dikenal karena efek astringennya. Sangat bagus digunakan untuk pembersihan lembut dan perawatan kecantikan. Penggunaan: mencuci muka, perawatan rambut, perawatan hewan peliharaan, memoles, membersihkan, dan mengawetkan makanan beku",
+      "ket": {
+        "1": {
+          "title": "Pembersih muka",
+          "desc": "Sifat astringen dari air Asam efektif dalam mengencangkan dan mengencangkan kulit Anda. Tepuk-tepuk kulitnya dan biarkan hingga kering. Air ini juga sangat baik sebagai toner setelah bercukur."
+        },
+        "2": {
+          "title": "Perawatan Rambut",
+          "desc": "Gunakan air ini sebagai pengganti kondisioner setelah keramas. Mengurangi kusut yang mengganggu dan memunculkan kilau yang bersinar. Simpan dalam botol semprot dan semprotkan pada rambut dan wajah Anda saat Anda bepergian."
+        },
+        "3": {
+          "title": "Pemolesan",
+          "desc": "Poles cermin, kacamata, benda kaca, dan jendela hingga berkilau tinggi."
+        },
+        "4": {
+          "title": "",
+          "desc": ""
+        }
+      }
+    },
+    "acid": {
+      "title": "Strong Acidic Water (pH 2.7)",
+      "desc": "Bukan untuk diminum. Air ini memiliki sifat membersihkan. Gunakan Air Asam Kuat untuk membersihkan peralatan dapur, meja dapur, dan lainnya untuk mencegah kontaminasi silang. Kegunaan: membersihkan dan mengurangi kuman, kebersihan, dan operasi komersial.",
+      "ket": {
+        "1": {
+          "title": "Kebersihan",
+          "desc": "Bersihkan tangan atau sikat gigi Anda. Simpan botol semprot di kamar mandi Anda agar mudah diakses."
+        },
+        "2": {
+          "title": "Komersial",
+          "desc": "Salon kecantikan, salon rambut, restoran, perguruan tinggi pertanian, pusat penitipan anak, toko hewan peliharaan, dan panti jompo semuanya mendapat manfaat besar dari penggunaan Air Asam Kuat."
+        },
+        "3": {
+          "title": "Pembersihan",
+          "desc": "Bersihkan pisau, talenan, lap piring, lap dapur, dll. Bersihkan bagian dalam dan sekitar dapur yang merupakan tempat berkembang biaknya kuman."
+        },
+        "4": {
+          "title": "",
+          "desc": ""
+        }
       }
     }
   }

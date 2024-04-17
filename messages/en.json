@@ -54,43 +54,146 @@
       "desc": "Our machines are individually assembled by artisans and then inspected, tested, and certified by highly-trained QC engineers. Get fast and efficient support from our experienced technicians and international service centers when needed. Always ask your water-ionization system provider for the kind of support service and warranty you will get from them."
     },
     "history": {
-      "title": "",
-      "desc": ""
+      "title": "History",
+      "desc": "In 1974 in Okinawa, Japan, Sony’s trading operation, the precursor of Enagic, began operations. Ever since, Enagic commitment to high quality products, innovation and True Health philosophy has made it the leader of water ionizer generating systems, now distributed globally."
     },
     "Certifications": {
-      "header": "",
-      "title": "",
-      "desc": ""
+      "header": "Our Certifications",
+      "title": "International Awards and Certifications",
+      "desc": "Enagic Kangen Water International has received numerous AWARDS and CERTIFICATIONS from highly respected third party organizations, such as ISO, WQA, DSA, etc"
     },
     "iso": {
-      "title": "",
-      "desc": "",
-      "img": ""
+      "title": "ISO",
+      "desc": "Our company is certified to ISO 9001, ISO 14001, and ISO 13485 for quality control and environmental management from International Organization for Standardization (ISO).",
+      "img": "/iso.png"
     },
     "wqa": {
-      "title": "",
-      "desc": "",
-      "img": ""
+      "title": "WQA",
+      "desc": "Gold Seal certification has been granted to our company by Water Quality Association (WQA) .",
+      "img": "/wqa_low.png"
     },
     "dsa": {
-      "title": "",
-      "desc": "",
-      "img": ""
+      "title": "DSA",
+      "desc": "Our company is a member in good standing of the prestigious Direct Selling Association (DSA).",
+      "img": "/dsa.png"
     },
     "bbb": {
-      "title": "",
-      "desc": "",
-      "img": ""
+      "title": "BBB",
+      "desc": "Our company received A+ accreditation given by Better Business Bureau (BBB)",
+      "img": "/bbb.png"
     },
-    "executive": {
-      "desc": "",
-      "hironari": {
-        "name": "",
-        "desc": ""
-      },
-      "yaeko": {
-        "name": "",
-        "desc": ""
+    "executive": "Since its founding in 1974, Enagic has been recognized as a premier, specialized manufacturer of high quality water ionizer generating systems. The human body is comprised of 70% water. It is no exaggeration to say that the basis of vitality and long life is water. Enagic offers safe water that can be used with confidence to benefit health, beauty, cleaning and cuisine. Enagic is an integrated development, manufacturing, sales and service company of alkaline ionizer technology. As the evolution of information technology continues we have entered the age of human technology marketing. Market vitality now depends upon a merging of high technology and the personal relationship between human beings. Enagic is teaming up with an international network of offices and numerous distributors around the world to spread the word water and health while building a global company with worldwide operations."
+  },
+  "Water_type": {
+    "strong": {
+      "title": "Strong Kangen Water (pH 11)",
+      "desc": "Not for drinking. Strong Kangen Water preserves hygiene in your daily life due to its strong cleaning effect. It has dissolving and heat conducting benefits. Usage: food preparation and cleaning.",
+
+      "ket": {
+        "1": {
+          "title": "Food Prep",
+          "desc": "Remove rawness from vegetables such as green onions, bamboo, wasabi and flowering fern with Strong Kangen Water."
+        },
+        "2": {
+          "title": "Cleaning",
+          "desc": "Clean cutting boards and dishcloths. Good for cleaning oil and tough grime from vents, as well as for general cleaning in the kitchen."
+        },
+        "3": {
+          "title": "Dishes",
+          "desc": "Use less detergent when washing your dishes. Save on water bills, as only one-third to one-fourth of the usual amount of water is adequate for rinsing off detergent."
+        },
+        "4": {
+          "title": "Stain Removal",
+          "desc": "The extra strength, absorption power, will remove coffee, soy sauce, and oil stains with ease. Also great for getting out stubborn toilet bowl stains."
+        }
+      }
+    },
+    "kangen": {
+      "title": "Kangen Water (pH 8.5 - 9.5)",
+      "desc": "This type of water is perfect for drinking and healthy cooking. This electrolytically-reduced, hydrogen-rich water works to restore your body to a more alkaline state, which is optimal for good health. Usage: drinking, food preparation, coffee and tea, soups and stews, and watering plants.",
+      "ket": {
+        "1": {
+          "title": "Drinking",
+          "desc": "Drink Kangen Water throughout the day. Unlike tap water, Kangen Water has no unpleasant odor, tastes lighter, and has a pleasantly sweet flavor."
+        },
+        "2": {
+          "title": "Food Prep",
+          "desc": "Clean vegetables and fish. Enhance the flavor of broccoli, onions, bamboo etc. by pre-boiling them in Kangen Water. Use less condiments and salt."
+        },
+        "3": {
+          "title": "Cooking",
+          "desc": "Kangen Water draws out the flavor of ingredients so they get tender and juicy. Therefore, food doesn't need as much seasoning, and excess salt can be avoided."
+        },
+        "4": {
+          "title": "",
+          "desc": ""
+        }
+      }
+    },
+    "clean": {
+      "title": "Clean Water (pH 7)",
+      "desc": "Free of chlorine, rust and cloudiness. Neutral water is delicious drinking water. Usage: preparing baby food, taking medication.",
+      "ket": {
+        "1": {
+          "title": "Baby Food",
+          "desc": "Use water pH 7.0 when preparing baby food."
+        },
+        "2": {
+          "title": "Medication",
+          "desc": "Neutral water is delicious drinking water that is easily absorbed by your body. Take your medicine with this water."
+        },
+        "3": {
+          "title": "",
+          "desc": ""
+        },
+        "4": {
+          "title": "",
+          "desc": ""
+        }
+      }
+    },
+    "beauty": {
+      "title": "Beauty Water (pH 4 - 6)",
+      "desc": "Not for drinking. This slightly acidic water is recognized for its astringent effects. It's terrific to use for gentle cleaning and beauty care. Usage: face wash, hair care, pet care, polishing, cleaning, and preserving frozen food",
+      "ket": {
+        "1": {
+          "title": "Face Wash",
+          "desc": "The astringent properties of Acidic water are effective in toning and firming your skin. Pat the skin and leave to dry. This water is also excellent as a toner after shaving."
+        },
+        "2": {
+          "title": "Hair Care",
+          "desc": "Use this water instead of conditioner after shampooing. Reduces annoying tangles and brings out a radiant shine. Keep in a spray bottle and spray your hair and face when you're out and about."
+        },
+        "3": {
+          "title": "Polishing",
+          "desc": "Polish mirrors, eyeglasses, glass objects, and windows to a high sheen."
+        },
+        "4": {
+          "title": "",
+          "desc": ""
+        }
+      }
+    },
+    "acid": {
+      "title": "Strong Acidic Water (pH 2.7)",
+      "desc": "Not for drinking. This water has cleansing properties. Use Strong Acidic Water to clean kitchen utensils, countertops, and more to prevent cross-contamination. Usages: cleaning and reducing germs, hygiene, and commercial operation.",
+      "ket": {
+        "1": {
+          "title": "Hygiene",
+          "desc": "Clean your hands or your toothbrush. Keep a spray bottle in your bathroom for easy access."
+        },
+        "2": {
+          "title": "Commercial",
+          "desc": "Beauty salons, hair salons, restaurants, agricultural colleges, daycare centers, pet shops, and nursing homes all benefit greatly from the use of Strong Acidic Water."
+        },
+        "3": {
+          "title": "Cleaning",
+          "desc": "Clean knives, cutting boards, dish towels, and kitchen cloths etc. Clean in and around the kitchen, which is a breeding ground for germs."
+        },
+        "4": {
+          "title": "",
+          "desc": ""
+        }
       }
     }
   }
