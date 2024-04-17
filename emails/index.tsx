@@ -37,7 +37,7 @@ export const KoalaWelcomeEmail = ({
           alt="Koala"
           style={logo}
         />
-        <Text style={paragraph}>Hi {userFirstname},</Text>
+        <Text style={paragraph}>Hi {name},</Text>
         <Text style={paragraph}>
           Welcome to Daily Web Coding, the sales intelligence platform that
           helps you uncover qualified leads and close deals faster.
