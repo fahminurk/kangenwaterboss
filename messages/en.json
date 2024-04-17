@@ -1,0 +1,97 @@
+{
+  "Home": {
+    "certified": {
+      "title": "Certified Medical Device and Only Hydrogen Water Ionizer in the World to Be Awarded the Gold Seal by the Water Quality Association"
+    },
+    "wqa": {
+      "title": "WQA Gold Seal Award",
+      "desc": "Only products that pass the rigorous testing requirements of industry standards, pass annual manufacturing facility audits, and comply with WQA’s Certification Schemes are awarded this seal.",
+      "img": "/wqa.png"
+    },
+    "ms": {
+      "title": "ISO 13485 Certified Medical Device",
+      "desc": "Our quality management system demonstrates its ability to provide medical devices and related services that consistently meet consumer and regulatory requirements applicable to medical devices and related services.",
+      "img": "/ms.webp"
+    },
+    "dnv": {
+      "title": "ISO 9001 Quality System Certification",
+      "desc": "Our quality management system has been audited and reviewed by an official registrar to ensure that our systems are focused on meeting customer’s expectations through certified procedures and a continual improvement process.",
+      "img": "/dnv.jpg"
+    },
+    "lifespan": {
+      "count1": "15",
+      "count2": "25",
+      "title": "Years",
+      "desc": "Product Lifespan Compared to Other Brands of ~5 Years"
+    },
+    "industry": {
+      "count1": "0",
+      "count2": "40",
+      "title": "Years",
+      "desc": "Of Industry Experience"
+    },
+    "doctors": {
+      "count1": "0",
+      "count2": "6500",
+      "title": "Doctors",
+      "desc": "Tested and Approved Kangen Water"
+    },
+    "countries": {
+      "count1": "0",
+      "count2": "25",
+      "title": "Countries",
+      "desc": "Worldwide"
+    },
+    "products": "OUR PRODUCTS"
+  },
+  "About": {
+    "kangen": {
+      "title": "What Is Kangen Water?",
+      "desc": "Kangen Water is a name of alkaline drinking water created through electrolysis process using water ionzer made by our Japanese company, Enagic, that has been established since 1974."
+    },
+    "made": {
+      "title": "Made in Japan",
+      "desc": "Our machines are individually assembled by artisans and then inspected, tested, and certified by highly-trained QC engineers. Get fast and efficient support from our experienced technicians and international service centers when needed. Always ask your water-ionization system provider for the kind of support service and warranty you will get from them."
+    },
+    "history": {
+      "title": "",
+      "desc": ""
+    },
+    "Certifications": {
+      "header": "",
+      "title": "",
+      "desc": ""
+    },
+    "iso": {
+      "title": "",
+      "desc": "",
+      "img": ""
+    },
+    "wqa": {
+      "title": "",
+      "desc": "",
+      "img": ""
+    },
+    "dsa": {
+      "title": "",
+      "desc": "",
+      "img": ""
+    },
+    "bbb": {
+      "title": "",
+      "desc": "",
+      "img": ""
+    },
+    "executive": {
+      "desc": "",
+      "hironari": {
+        "name": "",
+        "desc": ""
+      },
+      "yaeko": {
+        "name": "",
+        "desc": ""
+      }
+    }
+  }
+}

@@ -1,7 +1,5 @@
 "use client";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import {
   NavigationMenu,
@@ -12,37 +10,12 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-
-const components: { title: string; href: string }[] = [
-  {
-    title: "Leveluk Kangen 8",
-    href: "/product/Leveluk-Kangen-8",
-  },
-  {
-    title: "Leveluk JR4",
-    href: "/product/Leveluk-JR4",
-  },
-  {
-    title: "Leveluk SUPER 501",
-    href: "/product/Leveluk-SUPER-501",
-  },
-  {
-    title: "Leveluk SD 501",
-    href: "/product/Leveluk-SD-501",
-  },
-  {
-    title: "Leveluk SD 501 Platinum",
-    href: "/product/Leveluk-SD-501-Platinum",
-  },
-  {
-    title: "Anespa DX",
-    href: "/product/Anespa-DX",
-  },
-];
+import { createSharedPathnamesNavigation } from "next-intl/navigation";
 
 const Navbar = () => {
-  const path = usePathname();
   const [isScrolled, setIsScrolled] = useState(false);
+  const locales = ["en", "id"] as const;
+  const { Link } = createSharedPathnamesNavigation({ locales });
 
   useEffect(() => {
     const handleScroll = () => {
@@ -89,7 +62,7 @@ const Navbar = () => {
                 <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                   <li className="row-span-3">
                     <NavigationMenuLink asChild>
-                      <a
+                      <Link
                         className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none "
                         href="/about"
                       >
@@ -104,7 +77,7 @@ const Navbar = () => {
                         <p className="text-sm leading-tight text-muted-foreground">
                           What makes Enagic different?
                         </p>
-                      </a>
+                      </Link>
                     </NavigationMenuLink>
                   </li>
                   <ListItem href="/5-water-types" title="The 5 Water Types">
@@ -125,29 +98,28 @@ const Navbar = () => {
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
-            <NavigationMenuItem>
-              <NavigationMenuTrigger>Product</NavigationMenuTrigger>
-              <NavigationMenuContent>
-                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                  {components.map((component) => (
-                    <ListItem
-                      key={component.title}
-                      title={component.title}
-                      href={component.href}
-                    ></ListItem>
-                  ))}
-                </ul>
-              </NavigationMenuContent>
-            </NavigationMenuItem>
+            <Link href="/product" legacyBehavior passHref>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                Product
+              </NavigationMenuLink>
+            </Link>
             <NavigationMenuItem>
               <Link href="/contact" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Contact Us
+                  Contact
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
+        <div className="flex gap-2">
+          <Link href="/" locale="en">
+            EN
+          </Link>
+          <Link href="/" locale="id">
+            ID
+          </Link>
+        </div>
       </div>
     </>
   );
@@ -158,11 +130,14 @@ export default Navbar;
 const ListItem = React.forwardRef<
   React.ElementRef<"a">,
   React.ComponentPropsWithoutRef<"a">
->(({ className, title, children, ...props }, ref) => {
+>(({ className, title, children, href, ...props }, ref) => {
+  const locales = ["en", "id"] as const;
+  const { Link } = createSharedPathnamesNavigation({ locales });
   return (
     <li>
       <NavigationMenuLink asChild>
-        <a
+        <Link
+          href={href as string}
           ref={ref}
           className={cn(
             "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
@@ -174,7 +149,7 @@ const ListItem = React.forwardRef<
           <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
             {children}
           </p>
-        </a>
+        </Link>
       </NavigationMenuLink>
     </li>
   );

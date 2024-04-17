@@ -1,0 +1,97 @@
+{
+  "Home": {
+    "certified": {
+      "title": "Alat Kesehatan Bersertifikat dan Satu-Satunya Pengion Air Hidrogen di Dunia yang Dianugerahi Segel Emas oleh Asosiasi Kualitas Air"
+    },
+    "wqa": {
+      "title": "WQA Gold Seal Award",
+      "desc": "Hanya produk yang lulus persyaratan pengujian ketat standar industri, lulus audit fasilitas manufaktur tahunan, dan mematuhi Skema Sertifikasi WQA yang akan mendapatkan stempel ini.",
+      "img": "/wqa.png"
+    },
+    "ms": {
+      "title": "ISO 13485 Certified Medical Device",
+      "desc": "Sistem manajemen mutu kami menunjukkan kemampuannya untuk menyediakan perangkat medis dan layanan terkait yang secara konsisten memenuhi persyaratan konsumen dan peraturan yang berlaku untuk perangkat medis dan layanan terkait.",
+      "img": "/ms.webp"
+    },
+    "dnv": {
+      "title": "ISO 9001 Quality System Certification",
+      "desc": "Sistem manajemen mutu kami telah diaudit dan ditinjau oleh registrar resmi untuk memastikan bahwa sistem kami fokus pada pemenuhan harapan pelanggan melalui prosedur bersertifikat dan proses perbaikan berkelanjutan.",
+      "img": "/dnv.jpg"
+    },
+    "lifespan": {
+      "count1": "15",
+      "count2": "25",
+      "title": "Tahun",
+      "desc": "Umur Produk Dibandingkan Merek Lain ~5 Tahun"
+    },
+    "industry": {
+      "count1": "0",
+      "count2": "40",
+      "title": "Tahun",
+      "desc": "Pengalaman Industri"
+    },
+    "doctors": {
+      "count1": "0",
+      "count2": "6500",
+      "title": "Dokter",
+      "desc": "Kangen water yang Telah Diuji dan Disetujui"
+    },
+    "countries": {
+      "count1": "0",
+      "count2": "25",
+      "title": "Negara",
+      "desc": "Di seluruh dunia"
+    },
+    "products": "PRODUK KANGEN WATER"
+  },
+  "About": {
+    "kangen": {
+      "title": "",
+      "desc": ""
+    },
+    "made": {
+      "title": "",
+      "desc": ""
+    },
+    "history": {
+      "title": "",
+      "desc": ""
+    },
+    "Certifications": {
+      "header": "",
+      "title": "",
+      "desc": ""
+    },
+    "iso": {
+      "title": "",
+      "desc": "",
+      "img": ""
+    },
+    "wqa": {
+      "title": "",
+      "desc": "",
+      "img": ""
+    },
+    "dsa": {
+      "title": "",
+      "desc": "",
+      "img": ""
+    },
+    "bbb": {
+      "title": "",
+      "desc": "",
+      "img": ""
+    },
+    "executive": {
+      "desc": "",
+      "hironari": {
+        "name": "",
+        "desc": ""
+      },
+      "yaeko": {
+        "name": "",
+        "desc": ""
+      }
+    }
+  }
+}

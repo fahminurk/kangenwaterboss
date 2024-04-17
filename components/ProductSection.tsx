@@ -1,11 +1,15 @@
 import { product } from "@/constants";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 import React from "react";
+import { createSharedPathnamesNavigation } from "next-intl/navigation";
 
 const ProductSection = () => {
+  const t = useTranslations("Home");
+  const locales = ["en", "id"] as const;
+  const { Link } = createSharedPathnamesNavigation({ locales });
   return (
     <div className="flex flex-col gap-2">
-      <p className="text-center font-bold text-4xl p-5">OUR PRODUCTS</p>
+      <p className="text-center font-bold text-4xl p-5">{t("products")}</p>
       <div className="flex flex-col sm:flex-row gap-5 justify-between">
         {product.map((item, i) => (
           <div key={item.name} className="">

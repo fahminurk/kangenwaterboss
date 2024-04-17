@@ -3,6 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Toaster } from "sonner";
+import { unstable_setRequestLocale } from "next-intl/server";
+import { NextIntlClientProvider, useMessages } from "next-intl";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,15 +16,23 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params: { locale },
 }: {
   children: React.ReactNode;
+  params: { locale: string };
 }) {
+  unstable_setRequestLocale(locale);
+  const msg = useMessages();
+
   return (
-    <html lang="en">
+    <html lang={locale}>
+      <Toaster />
       <body className={`${inter.className}`}>
-        <Navbar />
-        <div className="">{children}</div>
-        <Footer />
+        <NextIntlClientProvider locale={locale} messages={msg}>
+          <Navbar />
+          <div className="">{children}</div>
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );
