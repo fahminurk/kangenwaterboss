@@ -4,8 +4,10 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Toaster } from "sonner";
-import { unstable_setRequestLocale } from "next-intl/server";
 import { NextIntlClientProvider, useMessages } from "next-intl";
+import { locales } from "@/navigation";
+import { notFound } from "next/navigation";
+import WhatsappToggle from "@/components/WhatsappToggle";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,19 +23,23 @@ export default function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  unstable_setRequestLocale(locale);
+  if (!locales.includes(locale)) {
+    notFound();
+  }
+  // unstable_setRequestLocale(locale);
   const msg = useMessages();
 
   return (
     <html lang={locale}>
       <Toaster />
-      <body className={`${inter.className}`}>
-        <NextIntlClientProvider locale={locale} messages={msg}>
-          <Navbar />
-          <div className="">{children}</div>
+      <NextIntlClientProvider locale={locale} messages={msg}>
+        <body className={`${inter.className}`}>
+          <Navbar locale={locale} />
+          <WhatsappToggle />
+          {children}
           <Footer />
-        </NextIntlClientProvider>
-      </body>
+        </body>
+      </NextIntlClientProvider>
     </html>
   );
 }

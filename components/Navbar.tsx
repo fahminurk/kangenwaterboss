@@ -11,6 +11,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { createSharedPathnamesNavigation } from "next-intl/navigation";
+import { useRouter, usePathname, Link } from "@/navigation";
 import {
   Select,
   SelectContent,
@@ -19,10 +20,16 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-const Navbar = () => {
+import BurgerNavbar from "./BurgerNavbar";
+
+const Navbar = ({ locale }: { locale: string }) => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const locales = ["en", "id"] as const;
-  const { Link } = createSharedPathnamesNavigation({ locales });
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const handleChange = (e: string) => {
+    router.push(pathname, { locale: e });
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -54,8 +61,13 @@ const Navbar = () => {
           isScrolled && "bg-white/70 backdrop-blur"
         )}
       >
-        <div />
-        <NavigationMenu>
+        {!isScrolled ? (
+          <div />
+        ) : (
+          <img src="/enagicblue.png" alt="logo" className="h-10" />
+        )}
+        <BurgerNavbar isScrolled={isScrolled} locale={locale} />
+        <NavigationMenu className="hidden md:block">
           <NavigationMenuList>
             <NavigationMenuItem>
               <Link href="/" passHref legacyBehavior>
@@ -120,20 +132,16 @@ const Navbar = () => {
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
-        <div
-          className={cn(
-            "flex justify-end gap-1 items-center",
-            isScrolled ? "text-black" : "text-white"
-          )}
-        >
-          <Link href="/" locale="en" className="hover:text-white/50">
-            EN
-          </Link>
-          <div className="w-0.5 h-full bg-white" />
-          <Link href="/" locale="id" className="hover:text-white/50">
-            ID
-          </Link>
-        </div>
+
+        <Select onValueChange={handleChange} defaultValue={locale}>
+          <SelectTrigger className="max-w-max hidden md:flex">
+            <SelectValue defaultValue={locale} />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="en">EN</SelectItem>
+            <SelectItem value="id">ID</SelectItem>
+          </SelectContent>
+        </Select>
       </div>
     </>
   );

@@ -1,199 +1,571 @@
 {
-  "Home": {
-    "certified": {
-      "title": "Alat Kesehatan Bersertifikat dan Satu-Satunya Pengion Air Hidrogen di Dunia yang Dianugerahi Segel Emas oleh Asosiasi Kualitas Air"
+  "Becomes_kangen": {
+    "step1": {
+      "desc": "Filter Tingkat Tinggi internal menyaring klorin, rasa dan bau tidak sedap, dan mengurangi sedimen hingga 5 mikrometer untuk menghasilkan Air Bersih.",
+      "img": "/filter.jpg",
+      "title": "Langkah 1: Filtrasi"
+    },
+    "step2": {
+      "desc1": "Air yang disaring bergerak melalui beberapa pelat elektroda dan membran, terpisah menjadi bagian asam dan basa. Ia terpecah menjadi OH- (ion hidroksida) dan H+ (ion hidrogen).\n\n",
+      "desc2": "Ion hidrogen bereaksi dengan elektron yang diberikan oleh katoda (– elektroda bermuatan), membentuk H2, molekul Hidrogen. Ion hidroksida tetap ada, membuat air lebih basa di sekitar katoda. Sebaliknya, di dekat anoda (+ elektroda bermuatan), ion hidroksida memberikan elektron ke anoda, akhirnya membentuk O2 (Oksigen). Ion hidrogen tetap ada, membuat air lebih asam di sekitar anoda. Kedua jenis air tersebut dipisahkan oleh membran dan dikeluarkan melalui selang yang berbeda",
+      "desc3": "* Jumlah pelat elektroda tergantung pada model mesin",
+      "img": "/ele.jpg",
+      "title": "Langkah 2: Elektrolisis"
+    },
+    "title": "BAGAIMANA AIR KERAN ANDA MENJADI AIR KANGEN"
+  },
+  "Kangen_water": {
+    "alkaline": {
+      "desc": "Seperti kebanyakan hal dalam hidup, kesehatan yang optimal dimulai dengan keseimbangan. Tubuh kita harus menjaga keseimbangan pH 7,365, yang sedikit basa. Skala pH digunakan untuk menentukan apakah suatu zat bersifat asam atau basa. Pada skala ini 7.0 bersifat netral. Nilai di atas 7 dianggap basa dan nilai di bawah 7 dianggap asam.",
+      "img": "/alkaline.jpg",
+      "title": "basa"
+    },
+    "antioxidant": {
+      "desc": "Reaksi oksidasi dalam tubuh dapat menghasilkan radikal bebas, sedangkan antioksidan menghentikan reaksi tersebut. Peningkatan kadar oksidan dan kurangnya antioksidan dalam tubuh menyebabkan stres oksidatif. Pasokan sumber antioksidan eksternal yang konstan harus menjadi bagian dari makanan sehari-hari, untuk mengurangi stres oksidatif dan kerusakan terkait. Inilah sebabnya mengapa setiap orang tidak hanya harus peduli pada kuantitas air yang kita minum, tetapi juga kualitasnya. Keduanya penting untuk kesejahteraan kita.",
+      "img": "/antioksidan.jpg",
+      "title": "Antioksidan"
+    },
+    "batu1": "Dengan memilih untuk minum air alkali, Anda membantu tubuh Anda kembali ke keadaan seimbang. Kangen Water adalah air yang segar, bersih dan rasanya enak untuk menjaga kesehatan yang optimal!",
+    "batu2": "Kangen Water tidak menghilangkan banyak mineral yang hilang dalam proses pemurnian air kemasan.",
+    "batu3": "Kangen Water mempunyai potensi reduksi oksidasi negatif atau ORP.",
+    "desc": "Kangen berarti 'kembali ke asal' dalam bahasa Jepang. Kangen Water® adalah air alkali yang diproduksi oleh mesin ionisasi alkali dan penyaringan air Enagic. Selama lebih dari 40 tahun, Kangen Water® telah digunakan di Jepang untuk membantu mengembalikan tubuh ke keadaan basa semula. Mesin ini dapat mengubah air keran biasa menjadi air minum alkali yang sehat dan segar. Kangen Water® lebih unggul dibandingkan air keran dan air murni.",
+    "hydrogen": {
+      "desc": "Air yang kaya Hidrogen memiliki konsentrasi Hidrogen Molekuler (H2) yang tinggi. Hidrogen Molekuler bertindak sebagai antioksidan efisien yang berdifusi dengan cepat melintasi membran sel dan dapat mengurangi radikal bebas, menekan stres oksidatif. Melalui proses elektrolisis, air keran Anda menjadi Kangen Water® yang kaya akan Hidrogen.",
+      "img": "/hydrorich.jpg",
+      "title": "Kaya Hidrogen"
+    },
+    "negative": {
+      "desc": "Air kaya hidrogen ditandai dengan menunjukkan ORP negatif. Nilai ORP yang tinggi (dalam angka positif), menunjukkan bahwa suatu zat mempunyai potensi oksidasi yang lebih tinggi. Secara umum, bagi manusia yang ORP positif atau tinggi lebih baik untuk bagian luar tubuh (pembersihan dan sanitasi). Nilai ORP yang rendah (dalam angka negatif) menunjukkan bahwa suatu zat mempunyai potensi antioksidan yang lebih tinggi, dan lebih disukai untuk dikonsumsi secara oral. Sama seperti pH, nilai ORP merupakan pengukuran penting untuk menentukan kualitas air.",
+      "title": "ORP negatif"
+    },
+    "title": "Apa itu Air Kangen?"
+  },
+  "About": {
+    "bbb": {
+      "desc": "Perusahaan kami menerima akreditasi A+ yang diberikan oleh Better Business Bureau (BBB)",
+      "img": "/bbb.png",
+      "title": "BBB"
+    },
+    "Certifications": {
+      "desc": "Enagic Kangen Water International telah menerima banyak PENGHARGAAN dan SERTIFIKASI dari organisasi pihak ketiga yang sangat dihormati, seperti ISO, WQA, DSA, dll.",
+      "header": "Sertifikasi kami",
+      "title": "Penghargaan dan Sertifikasi Internasional"
+    },
+    "dsa": {
+      "desc": "Perusahaan kami adalah anggota yang bereputasi baik dari Direct Selling Association (DSA) yang bergengsi.",
+      "img": "/dsa.png",
+      "title": "DSA"
+    },
+    "executive": "Sejak didirikan pada tahun 1974, Enagic telah diakui sebagai produsen terkemuka dan terspesialisasi dalam sistem pembangkit ionisasi air berkualitas tinggi. Tubuh manusia terdiri dari 70% air. Tidaklah berlebihan jika dikatakan bahwa dasar vitalitas dan umur panjang adalah air. Enagic menawarkan air aman yang dapat digunakan dengan percaya diri untuk memberikan manfaat bagi kesehatan, kecantikan, pembersihan, dan masakan. Enagic adalah perusahaan pengembangan, manufaktur, penjualan dan layanan terintegrasi teknologi ionisasi alkali. Seiring dengan berlanjutnya evolusi teknologi informasi, kita telah memasuki era pemasaran teknologi manusia. Vitalitas pasar kini bergantung pada perpaduan teknologi tinggi dan hubungan pribadi antar manusia. Enagic bekerja sama dengan jaringan kantor internasional dan sejumlah distributor di seluruh dunia untuk menyebarkan berita tentang air dan kesehatan sambil membangun perusahaan global yang beroperasi di seluruh dunia.",
+    "history": {
+      "desc": "Pada tahun 1974 di Okinawa, Jepang, operasi perdagangan Sony, pendahulu Enagic, mulai beroperasi. Sejak saat itu, komitmen Enagic terhadap produk berkualitas tinggi, inovasi, dan filosofi True Health telah menjadikannya pemimpin dalam sistem penghasil ionisasi air, yang kini didistribusikan secara global.",
+      "title": "Sejarah"
+    },
+    "iso": {
+      "desc": "Perusahaan kami bersertifikat ISO 9001, ISO 14001, dan ISO 13485 untuk pengendalian kualitas dan pengelolaan lingkungan dari Organisasi Internasional untuk Standardisasi (ISO).",
+      "img": "/iso.png",
+      "title": "ISO"
+    },
+    "kangen": {
+      "desc": "Kangen Water adalah nama air minum alkali yang dibuat melalui proses elektrolisis menggunakan ionzer air buatan perusahaan Jepang kami, Enagic, yang telah berdiri sejak tahun 1974.",
+      "title": "Apa Itu Air Kangen?"
+    },
+    "made": {
+      "desc": "Mesin kami dirakit secara individual oleh pengrajin dan kemudian diperiksa, diuji, dan disertifikasi oleh insinyur QC yang sangat terlatih. Dapatkan dukungan cepat dan efisien dari teknisi kami yang berpengalaman dan pusat layanan internasional bila diperlukan. Selalu tanyakan kepada penyedia sistem ionisasi air Anda tentang jenis layanan dukungan dan garansi yang akan Anda dapatkan dari mereka.",
+      "title": "Buatan Jepang"
     },
     "wqa": {
-      "title": "WQA Gold Seal Award",
-      "desc": "Hanya produk yang lulus persyaratan pengujian ketat standar industri, lulus audit fasilitas manufaktur tahunan, dan mematuhi Skema Sertifikasi WQA yang akan mendapatkan stempel ini.",
-      "img": "/wqa.png"
-    },
-    "ms": {
-      "title": "ISO 13485 Certified Medical Device",
-      "desc": "Sistem manajemen mutu kami menunjukkan kemampuannya untuk menyediakan perangkat medis dan layanan terkait yang secara konsisten memenuhi persyaratan konsumen dan peraturan yang berlaku untuk perangkat medis dan layanan terkait.",
-      "img": "/ms.webp"
+      "desc": "Sertifikasi Segel Emas telah diberikan kepada perusahaan kami oleh Water Quality Association (WQA).",
+      "img": "/wqa_low.png",
+      "title": "WQA"
+    }
+  },
+  "Home": {
+    "certified": "Alat Kesehatan Tersertifikasi dan Satu-Satunya Pengion Air Hidrogen di Dunia yang Dianugerahi Segel Emas oleh Asosiasi Kualitas Air",
+    "countries": {
+      "count1": "0",
+      "count2": "25",
+      "desc": "Di seluruh dunia",
+      "title": "Negara"
     },
     "dnv": {
-      "title": "ISO 9001 Quality System Certification",
       "desc": "Sistem manajemen mutu kami telah diaudit dan ditinjau oleh registrar resmi untuk memastikan bahwa sistem kami fokus pada pemenuhan harapan pelanggan melalui prosedur bersertifikat dan proses perbaikan berkelanjutan.",
-      "img": "/dnv.jpg"
-    },
-    "lifespan": {
-      "count1": "15",
-      "count2": "25",
-      "title": "Tahun",
-      "desc": "Umur Produk Dibandingkan Merek Lain ~5 Tahun"
-    },
-    "industry": {
-      "count1": "0",
-      "count2": "40",
-      "title": "Tahun",
-      "desc": "Pengalaman Industri"
+      "img": "/dnv.jpg",
+      "title": "Sertifikasi Sistem Mutu ISO 9001"
     },
     "doctors": {
       "count1": "0",
       "count2": "6500",
-      "title": "Dokter",
-      "desc": "Kangen water yang Telah Diuji dan Disetujui"
+      "desc": "Air Kangen yang Telah Diuji dan Disetujui",
+      "title": "Dokter"
     },
-    "countries": {
+    "industry": {
       "count1": "0",
+      "count2": "40",
+      "desc": "Pengalaman Industri",
+      "title": "Bertahun-tahun"
+    },
+    "lifespan": {
+      "count1": "15",
       "count2": "25",
-      "title": "Negara",
-      "desc": "Di seluruh dunia"
+      "desc": "Umur Produk Dibandingkan Merek Lain ~5 Tahun",
+      "title": "Bertahun-tahun"
     },
-    "products": "PRODUK KANGEN WATER"
-  },
-  "About": {
-    "kangen": {
-      "title": "Apa itu Kangen Water?",
-      "desc": "Kangen Water adalah nama air minum alkali yang dibuat melalui proses elektrolisis menggunakan mesin ionzer air buatan perusahaan Jepang kami, Enagic, yang telah berdiri sejak tahun 1974."
+    "ms": {
+      "desc": "Sistem manajemen mutu kami menunjukkan kemampuannya untuk menyediakan perangkat medis dan layanan terkait yang secara konsisten memenuhi persyaratan konsumen dan peraturan yang berlaku untuk perangkat medis dan layanan terkait.",
+      "img": "/ms.webp",
+      "title": "Alat Kesehatan Bersertifikat ISO 13485"
     },
-    "made": {
-      "title": "Buatan Jepang",
-      "desc": "Mesin kami dirakit secara individual oleh pengrajin dan kemudian diperiksa, diuji, dan disertifikasi oleh insinyur QC yang sangat terlatih. Dapatkan dukungan cepat dan efisien dari teknisi kami yang berpengalaman dan pusat layanan internasional bila diperlukan. Selalu tanyakan kepada penyedia sistem ionisasi air Anda tentang jenis layanan dukungan dan garansi yang akan Anda dapatkan dari mereka."
-    },
-    "history": {
-      "title": "Sejarah",
-      "desc": "Pada tahun 1974 di Okinawa, Jepang, operasi perdagangan Sony, pendahulu Enagic, mulai beroperasi. Sejak saat itu, komitmen Enagic terhadap produk berkualitas tinggi, inovasi, dan filosofi Kesehatan Sejati telah menjadikannya pemimpin dalam sistem penghasil ionisasi air, yang kini didistribusikan secara global."
-    },
-    "Certifications": {
-      "header": "Sertifikasi kami",
-      "title": "Penghargaan dan Sertifikasi Internasional",
-      "desc": "Enagic Kangen Water International telah menerima banyak PENGHARGAAN dan SERTIFIKASI dari organisasi pihak ketiga yang sangat dihormati, seperti ISO, WQA, DSA, dll."
-    },
-    "iso": {
-      "title": "ISO",
-      "desc": "Perusahaan kami bersertifikat ISO 9001, ISO 14001, dan ISO 13485 untuk pengendalian kualitas dan pengelolaan lingkungan dari Organisasi Internasional untuk Standardisasi (ISO).",
-      "img": "/iso.png"
-    },
+    "products": "PRODUK KITA",
     "wqa": {
-      "title": "WQA",
-      "desc": "Sertifikasi Segel Emas telah diberikan kepada perusahaan kami oleh Water Quality Association (WQA).",
-      "img": "/wqa_low.png"
-    },
-    "dsa": {
-      "title": "DSA",
-      "desc": "Perusahaan kami adalah anggota yang bereputasi baik dari Direct Selling Association (DSA) yang bergengsi.",
-      "img": "/dsa.png"
-    },
-    "bbb": {
-      "title": "BBB",
-      "desc": "Perusahaan kami menerima akreditasi A+ yang diberikan oleh Better Business Bureau (BBB)",
-      "img": "/bbb.png"
-    },
-    "executive": "Sejak didirikan pada tahun 1974, Enagic telah diakui sebagai produsen terkemuka dan terspesialisasi dalam sistem pembangkit ionisasi air berkualitas tinggi. Tubuh manusia terdiri dari 70% air. Tidaklah berlebihan jika dikatakan bahwa dasar vitalitas dan umur panjang adalah air. Enagic menawarkan air aman yang dapat digunakan dengan percaya diri untuk memberikan manfaat bagi kesehatan, kecantikan, pembersihan, dan masakan. Enagic adalah perusahaan pengembangan, manufaktur, penjualan dan layanan terintegrasi teknologi ionisasi alkali. Seiring dengan berlanjutnya evolusi teknologi informasi, kita telah memasuki era pemasaran teknologi manusia. Vitalitas pasar kini bergantung pada perpaduan teknologi tinggi dan hubungan pribadi antar manusia. Enagic bekerja sama dengan jaringan kantor internasional dan sejumlah distributor di seluruh dunia untuk menyebarkan berita tentang air dan kesehatan sambil membangun perusahaan global yang beroperasi di seluruh dunia."
+      "desc": "Hanya produk yang lulus persyaratan pengujian ketat standar industri, lulus audit fasilitas manufaktur tahunan, dan mematuhi Skema Sertifikasi WQA yang akan mendapatkan stempel ini.",
+      "img": "/wqa.png",
+      "title": "Penghargaan Segel Emas WQA"
+    }
   },
   "Water_type": {
-    "strong": {
-      "title": "Strong Kangen Water (pH 11)",
-      "desc": "Bukan untuk diminum. Strong Kangen Water menjaga kebersihan dalam kehidupan sehari-hari Anda karena efek pembersihannya yang kuat. Ini memiliki manfaat pelarutan dan penghantar panas. Penggunaan: persiapan dan pembersihan makanan.",
-      "ket": {
-        "1": {
-          "title": "Persiapan Makanan",
-          "desc": "Hilangkan sifat mentah dari sayuran seperti daun bawang, bambu, wasabi dan pakis berbunga dengan Strong Kangen Water."
-        },
-        "2": {
-          "title": "Pembersihan",
-          "desc": "Bersihkan talenan dan serbet. Baik untuk membersihkan minyak dan kotoran membandel dari ventilasi, serta untuk pembersihan umum di dapur."
-        },
-        "3": {
-          "title": "Cucian piring",
-          "desc": "Gunakan lebih sedikit deterjen saat mencuci piring. Menghemat tagihan air, karena hanya sepertiga hingga seperempat jumlah air biasa yang cukup untuk membilas deterjen."
-        },
-        "4": {
-          "title": "Penghapusan Noda",
-          "desc": "Kekuatan ekstra, daya serapnya, akan menghilangkan noda kopi, kecap, dan minyak dengan mudah. Juga bagus untuk menghilangkan noda toilet yang membandel."
-        }
-      }
-    },
-    "kangen": {
-      "title": "Kangen Water (pH 8.5 - 9.5)",
-      "desc": "Air jenis ini sangat cocok untuk minum dan memasak sehat. Air kaya hidrogen yang direduksi secara elektrolitik ini berfungsi mengembalikan tubuh Anda ke keadaan yang lebih basa, yang optimal untuk kesehatan yang baik. Penggunaan: minum, menyiapkan makanan, kopi dan teh, sup dan semur, dan menyiram tanaman.",
-      "ket": {
-        "1": {
-          "title": "Minum",
-          "desc": "Minumlah Kangen Water sepanjang hari. Berbeda dengan air keran, Kangen Water tidak memiliki bau yang tidak sedap, rasanya lebih ringan, dan memiliki rasa manis yang menyenangkan."
-        },
-        "2": {
-          "title": "Persiapan Makanan",
-          "desc": "Hilangkan sifat mentah dari sayuran seperti daun bawang, bambu, wasabi dan pakis berbunga dengan Strong Kangen Water."
-        },
-        "3": {
-          "title": "Memasak",
-          "desc": "Kangen Water menghilangkan rasa dari bahan-bahan sehingga menjadi empuk dan juicy. Oleh karena itu, makanan tidak memerlukan banyak bumbu, dan kelebihan garam dapat dihindari."
-        },
-        "4": {
-          "title": "",
-          "desc": ""
-        }
-      }
-    },
-    "clean": {
-      "title": "Clean Water (pH 7)",
-      "desc": "Bebas klorin, karat dan kekeruhan. Air netral adalah air minum yang nikmat. Kegunaan: menyiapkan makanan bayi, minum obat.",
-      "ket": {
-        "1": {
-          "title": "Makanan bayi",
-          "desc": "Gunakan air pH 7,0 saat menyiapkan makanan bayi."
-        },
-        "2": {
-          "title": "Pengobatan",
-          "desc": "Air netral adalah air minum nikmat yang mudah diserap oleh tubuh Anda. Minum obatmu dengan air ini."
-        },
-        "3": {
-          "title": "",
-          "desc": ""
-        },
-        "4": {
-          "title": "",
-          "desc": ""
-        }
-      }
-    },
-    "beauty": {
-      "title": "Beauty Water (pH 4 - 6)",
-      "desc": "Bukan untuk diminum. Air yang sedikit asam ini dikenal karena efek astringennya. Sangat bagus digunakan untuk pembersihan lembut dan perawatan kecantikan. Penggunaan: mencuci muka, perawatan rambut, perawatan hewan peliharaan, memoles, membersihkan, dan mengawetkan makanan beku",
-      "ket": {
-        "1": {
-          "title": "Pembersih muka",
-          "desc": "Sifat astringen dari air Asam efektif dalam mengencangkan dan mengencangkan kulit Anda. Tepuk-tepuk kulitnya dan biarkan hingga kering. Air ini juga sangat baik sebagai toner setelah bercukur."
-        },
-        "2": {
-          "title": "Perawatan Rambut",
-          "desc": "Gunakan air ini sebagai pengganti kondisioner setelah keramas. Mengurangi kusut yang mengganggu dan memunculkan kilau yang bersinar. Simpan dalam botol semprot dan semprotkan pada rambut dan wajah Anda saat Anda bepergian."
-        },
-        "3": {
-          "title": "Pemolesan",
-          "desc": "Poles cermin, kacamata, benda kaca, dan jendela hingga berkilau tinggi."
-        },
-        "4": {
-          "title": "",
-          "desc": ""
-        }
-      }
-    },
     "acid": {
-      "title": "Strong Acidic Water (pH 2.7)",
       "desc": "Bukan untuk diminum. Air ini memiliki sifat membersihkan. Gunakan Air Asam Kuat untuk membersihkan peralatan dapur, meja dapur, dan lainnya untuk mencegah kontaminasi silang. Kegunaan: membersihkan dan mengurangi kuman, kebersihan, dan operasi komersial.",
       "ket": {
         "1": {
-          "title": "Kebersihan",
-          "desc": "Bersihkan tangan atau sikat gigi Anda. Simpan botol semprot di kamar mandi Anda agar mudah diakses."
+          "desc": "Bersihkan tangan atau sikat gigi Anda. Simpan botol semprot di kamar mandi Anda agar mudah diakses.",
+          "title": "Kebersihan"
         },
         "2": {
-          "title": "Komersial",
-          "desc": "Salon kecantikan, salon rambut, restoran, perguruan tinggi pertanian, pusat penitipan anak, toko hewan peliharaan, dan panti jompo semuanya mendapat manfaat besar dari penggunaan Air Asam Kuat."
+          "desc": "Salon kecantikan, salon rambut, restoran, perguruan tinggi pertanian, pusat penitipan anak, toko hewan peliharaan, dan panti jompo semuanya mendapat manfaat besar dari penggunaan Air Asam Kuat.",
+          "title": "Komersial"
         },
         "3": {
-          "title": "Pembersihan",
-          "desc": "Bersihkan pisau, talenan, lap piring, lap dapur, dll. Bersihkan bagian dalam dan sekitar dapur yang merupakan tempat berkembang biaknya kuman."
+          "desc": "Bersihkan pisau, talenan, lap piring, lap dapur, dll. Bersihkan bagian dalam dan sekitar dapur yang merupakan tempat berkembang biaknya kuman.",
+          "title": "Pembersihan"
+        },
+        "4": { "desc": "", "title": "" }
+      },
+      "title": "Air Asam Kuat (pH 2,7)"
+    },
+    "beauty": {
+      "desc": "Bukan untuk diminum. Air yang sedikit asam ini dikenal karena efek astringennya. Sangat bagus digunakan untuk pembersihan lembut dan perawatan kecantikan. Penggunaan: mencuci muka, perawatan rambut, perawatan hewan peliharaan, memoles, membersihkan, dan mengawetkan makanan beku",
+      "ket": {
+        "1": {
+          "desc": "Sifat astringen dari air Asam efektif dalam mengencangkan dan mengencangkan kulit Anda. Tepuk-tepuk kulitnya dan biarkan hingga kering. Air ini juga sangat baik sebagai toner setelah bercukur.",
+          "title": "Pembersih muka"
+        },
+        "2": {
+          "desc": "Gunakan air ini sebagai pengganti kondisioner setelah keramas. Mengurangi kusut yang mengganggu dan memunculkan kilau yang bersinar. Simpan dalam botol semprot dan semprotkan pada rambut dan wajah Anda saat Anda bepergian.",
+          "title": "Perawatan Rambut"
+        },
+        "3": {
+          "desc": "Poles cermin, kacamata, benda kaca, dan jendela hingga berkilau tinggi.",
+          "title": "Pemolesan"
+        },
+        "4": { "desc": "", "title": "" }
+      },
+      "title": "Air Kecantikan (pH 4 - 6)"
+    },
+    "clean": {
+      "desc": "Bebas klorin, karat dan kekeruhan. Air netral adalah air minum yang nikmat. Kegunaan: menyiapkan makanan bayi, minum obat.",
+      "ket": {
+        "1": {
+          "desc": "Gunakan air pH 7,0 saat menyiapkan makanan bayi.",
+          "title": "Makanan bayi"
+        },
+        "2": {
+          "desc": "Air netral adalah air minum nikmat yang mudah diserap oleh tubuh Anda. Minum obatmu dengan air ini.",
+          "title": "Pengobatan"
+        },
+        "3": { "desc": "", "title": "" },
+        "4": { "desc": "", "title": "" }
+      },
+      "title": "Air Bersih (pH 7)"
+    },
+    "kangen": {
+      "desc": "Air jenis ini sangat cocok untuk minum dan memasak sehat. Air kaya hidrogen yang direduksi secara elektrolitik ini berfungsi mengembalikan tubuh Anda ke keadaan yang lebih basa, yang optimal untuk kesehatan yang baik. Penggunaan: minum, menyiapkan makanan, kopi dan teh, sup dan semur, dan menyiram tanaman.",
+      "ket": {
+        "1": {
+          "desc": "Minumlah Kangen Water sepanjang hari. Berbeda dengan air keran, Kangen Water tidak memiliki bau yang tidak sedap, rasanya lebih ringan, dan memiliki rasa manis yang menyenangkan.",
+          "title": "Minum"
+        },
+        "2": {
+          "desc": "Bersihkan sayuran dan ikan. Tingkatkan cita rasa brokoli, bawang bombay, bambu dll dengan merebusnya terlebih dahulu dalam Kangen Water. Gunakan lebih sedikit bumbu dan garam.",
+          "title": "Persiapan Makanan"
+        },
+        "3": {
+          "desc": "Kangen Water menghilangkan rasa dari bahan-bahan sehingga menjadi empuk dan juicy. Oleh karena itu, makanan tidak memerlukan banyak bumbu, dan kelebihan garam dapat dihindari.",
+          "title": "Memasak"
+        },
+        "4": { "desc": "", "title": "" }
+      },
+      "title": "Air Kangen (pH 8,5 - 9,5)"
+    },
+    "strong": {
+      "desc": "Bukan untuk diminum. Strong Kangen Water menjaga kebersihan dalam kehidupan sehari-hari Anda karena efek pembersihannya yang kuat. Ini memiliki manfaat pelarutan dan penghantar panas. Penggunaan: persiapan dan pembersihan makanan.",
+      "ket": {
+        "1": {
+          "desc": "Hilangkan sifat mentah dari sayuran seperti daun bawang, bambu, wasabi dan pakis berbunga dengan Strong Kangen Water.",
+          "title": "Persiapan Makanan"
+        },
+        "2": {
+          "desc": "Bersihkan talenan dan serbet. Baik untuk membersihkan minyak dan kotoran membandel dari ventilasi, serta untuk pembersihan umum di dapur.",
+          "title": "Pembersihan"
+        },
+        "3": {
+          "desc": "Gunakan lebih sedikit deterjen saat mencuci piring. Menghemat tagihan air, karena hanya sepertiga hingga seperempat jumlah air biasa yang cukup untuk membilas deterjen.",
+          "title": "Cucian piring"
         },
         "4": {
-          "title": "",
-          "desc": ""
+          "desc": "Kekuatan ekstra, daya serapnya, akan menghilangkan noda kopi, kecap, dan minyak dengan mudah. Juga bagus untuk menghilangkan noda toilet yang membandel.",
+          "title": "Penghapusan Noda"
         }
+      },
+      "title": "Air Kangen Kuat (pH 11)"
+    }
+  },
+  "Products": {
+    "Leveluk-JR4": {
+      "name": "Leveluk JR4",
+      "price": "33411000",
+      "img": "/Leveluk_jriv.jpg",
+      "desc": "Mesin Kangen Water JRIV (atau JR4) adalah model junior kami yang paling dasar, dengan 4 pelat elektroda dan potensi antioksidan hingga -450 mV. Karena konsumsi daya yang lebih rendah dan pelat yang lebih sedikit, mesin ini direkomendasikan untuk penggunaan tunggal atau berpasangan.",
+      "Plates": {
+        "title": "Plates",
+        "desc": "4 titanium berlapis platinum bermutu tinggi"
+      },
+      "Plate_size": {
+        "title": "Plate size",
+        "desc": "135 mm x 75 mm"
+      },
+      "Negative_ORP": {
+        "title": "Negative ORP",
+        "desc": "Up to -450 mV"
+      },
+      "pH_Setting": {
+        "title": "pH Setting",
+        "desc": "2.5, 6.0, 7.0, 8.5, 9.0, 9.5 and 11.5"
+      },
+      "Generates": {
+        "title": "Generates",
+        "desc": "5 water types (Kangen, Clean, Beauty, Strong Acidic and Strong Kangen)"
+      },
+      "Wattage": {
+        "title": "Wattage",
+        "desc": "120 watt"
+      },
+      "Weight": {
+        "title": "Weight",
+        "desc": "5 Kg"
+      },
+      "Dimensions": {
+        "title": "Dimensions",
+        "desc": "264 mm x 338 mm x 171 mm"
+      },
+      "Ease_of_Use": {
+        "title": "Ease of use",
+        "desc": "Sepenuhnya otomatis, sangat mudah dioperasikan hanya dengan menekan tombol layar sentuh"
+      },
+      "Languages": {
+        "title": "Languages",
+        "desc": "English"
+      },
+      "Voice_Guidance": {
+        "title": "Voice Guidance",
+        "desc": "No"
+      },
+      "Warranty": {
+        "title": "Warranty",
+        "desc": "3 tahun"
       }
+    },
+    "Leveluk-Kangen-8": {
+      "name": "Leveluk Kangen 8",
+      "price": "64491000",
+      "img": "/Leveluk_Kangen8.jpg",
+      "desc": "Mesin Kangen Water K8 adalah model terbaru kami dan menjadi penghasil antioksidan paling kuat karena pelat tambahannya. Menggunakan 8 pelat meningkatkan luas permukaan elektrolisis, meningkatkan ionisasi air, dan meningkatkan potensi produksi antioksidan (hingga -850 mV). Tak hanya air minum, Anda juga bisa menghasilkan 5 jenis air dengan mudah hanya dengan menekan satu tombol.",
+      "Plates": {
+        "title": "Plates",
+        "desc": "8 titanium berlapis platinum bermutu tinggi"
+      },
+      "Plate_size": {
+        "title": "Plate size",
+        "desc": "135 mm x 75 mm"
+      },
+      "Negative_ORP": {
+        "title": "Negative ORP",
+        "desc": "Up to -850 mV"
+      },
+      "pH_Setting": {
+        "title": "pH Setting",
+        "desc": "2.5, 6.0, 7.0, 8.5, 9.0, 9.5 and 11.5"
+      },
+      "Generates": {
+        "title": "Generates",
+        "desc": "5 water types (Kangen, Clean, Beauty, Strong Acidic and Strong Kangen)"
+      },
+      "Wattage": {
+        "title": "Wattage",
+        "desc": "230 watt"
+      },
+      "Weight": {
+        "title": "Weight",
+        "desc": "5 Kg"
+      },
+      "Dimensions": {
+        "title": "Dimensions",
+        "desc": "279 mm x 345 mm x 141 mm"
+      },
+      "Ease_of_Use": {
+        "title": "Ease of use",
+        "desc": "Sepenuhnya otomatis, sangat mudah dioperasikan hanya dengan menekan tombol layar sentuh"
+      },
+      "Languages": {
+        "title": "Languages",
+        "desc": "English, German, French, Italian, Spanish, Portuguese, Japanese and Chinese"
+      },
+      "Voice_Guidance": {
+        "title": "Voice Guidance",
+        "desc": "Yes"
+      },
+      "Warranty": {
+        "title": "Warranty",
+        "desc": "5 tahun"
+      }
+    },
+    "Leveluk-SUPER-501": {
+      "name": "Leveluk SUPER 501",
+      "price": "69375000",
+      "img": "/Leveluk_Super501.jpg",
+      "desc": "Mesin Kangen Water Super 501 didesain untuk penggunaan yang super berat, cocok untuk usaha kecil seperti cafe, restoran, kantor, klinik atau jika anda mempunyai keluarga besar di rumah anda. Dibangun dengan 7 dan 5 pelat elektroda, sistem selang ganda, tangki internal untuk penambah elektrolisis, dan fungsi pengatur tekanan air membuat mesin ini sangat hebat jika Anda perlu memproduksi banyak air setiap hari. Super 501 mampu menghasilkan Kangen Water dengan potensi antioksidan tinggi (hingga -800 mV). Tak hanya air minum, Anda juga bisa menghasilkan 5 jenis air dengan mudah hanya dengan menekan satu tombol. Selang khusus Asam Kuat dan Kangen Kuat khusus juga tersedia jika Anda juga perlu memproduksi air ini dalam jumlah banyak setiap hari.",
+      "Plates": {
+        "title": "Plates",
+        "desc": "Titanium berlapis platinum bermutu tinggi 7 & 5 dengan ruang terpisah"
+      },
+      "Plate_size": {
+        "title": "Plate size",
+        "desc": "135 mm x 75 mm"
+      },
+      "Negative_ORP": {
+        "title": "Negative ORP",
+        "desc": "Up to -800 mV"
+      },
+      "pH_Setting": {
+        "title": "pH Setting",
+        "desc": "2.5, 6.0, 7.0, 8.5, 9.0, 9.5 and 11.5"
+      },
+      "Generates": {
+        "title": "Generates",
+        "desc": "5 water types (Kangen, Clean, Beauty, Strong Acidic and Strong Kangen)"
+      },
+      "Wattage": {
+        "title": "Wattage",
+        "desc": "200 watt"
+      },
+      "Weight": {
+        "title": "Weight",
+        "desc": "10.1 Kg"
+      },
+      "Dimensions": {
+        "title": "Dimensions",
+        "desc": "352 mm x 384 mm x 250 mm"
+      },
+      "Ease_of_Use": {
+        "title": "Ease of use",
+        "desc": "Sepenuhnya otomatis, sangat mudah dioperasikan hanya dengan menekan tombol layar sentuh"
+      },
+      "Languages": {
+        "title": "Languages",
+        "desc": "English"
+      },
+      "Voice_Guidance": {
+        "title": "Voice Guidance",
+        "desc": "No"
+      },
+      "Warranty": {
+        "title": "Warranty",
+        "desc": "5 tahun"
+      }
+    },
+    "Leveluk-SD-501": {
+      "name": "Leveluk SD 501",
+      "price": "48951000",
+      "img": "/Leveluk_SD501.jpg",
+      "desc": "Mesin Kangen Water SD 501 adalah model BEST SELLER favorit kami, dibuat dengan ruang elektrolisis kualitas tertinggi di pasaran. Dengan menggunakan 7 pelat, SD 501 mampu menghasilkan Kangen Water dengan potensi antioksidan tinggi (hingga -800 mV). Tak hanya air minum, Anda juga bisa menghasilkan 5 jenis air dengan mudah hanya dengan menekan satu tombol. Leveluk SD 501 adalah mesin Kangen Water yang paling kami rekomendasikan untuk dimiliki keluarga Anda.",
+      "Plates": {
+        "title": "Plates",
+        "desc": "7 titanium berlapis platinum bermutu tinggi"
+      },
+      "Plate_size": {
+        "title": "Plate size",
+        "desc": "135 mm x 75 mm"
+      },
+      "Negative_ORP": {
+        "title": "Negative ORP",
+        "desc": "Up to -800 mV"
+      },
+      "pH_Setting": {
+        "title": "pH Setting",
+        "desc": "2.5, 6.0, 7.0, 8.5, 9.0, 9.5 and 11.5"
+      },
+      "Generates": {
+        "title": "Generates",
+        "desc": "5 water types (Kangen, Clean, Beauty, Strong Acidic and Strong Kangen)"
+      },
+      "Wattage": {
+        "title": "Wattage",
+        "desc": "230 watt"
+      },
+      "Weight": {
+        "title": "Weight",
+        "desc": "5 Kg"
+      },
+      "Dimensions": {
+        "title": "Dimensions",
+        "desc": "264 mm x 338 mm x 171 mm"
+      },
+      "Ease_of_Use": {
+        "title": "Ease of use",
+        "desc": "Sepenuhnya otomatis, sangat mudah dioperasikan hanya dengan menekan tombol"
+      },
+      "Languages": {
+        "title": "Languages",
+        "desc": "English"
+      },
+      "Voice_Guidance": {
+        "title": "Voice Guidance",
+        "desc": "Yes"
+      },
+      "Warranty": {
+        "title": "Warranty",
+        "desc": "5 tahun"
+      }
+    },
+    "Leveluk-SD-501-Platinum": {
+      "name": "Leveluk SD 501 Platinum",
+      "price": "53169000",
+      "img": "/Leveluk_SD501_plat.jpg",
+      "desc": "Mesin Kangen Water SD 501 Platinum merupakan tampilan alternatif dari SD 501 Regular dengan desain platinum yang stylish dan tambahan kemampuan berbicara dalam 5 bahasa berbeda. Dengan menggunakan 7 pelat, SD 501 Platinum mampu menghasilkan Kangen Water dengan potensi antioksidan tinggi (hingga -800 mV). Tak hanya air minum, Anda juga bisa menghasilkan 5 jenis air dengan mudah hanya dengan menekan satu tombol. Dengan warna platinumnya, SD 501 Platinum berpadu indah dengan desain dapur modern masa kini.",
+      "Plates": {
+        "title": "Plates",
+        "desc": "7 titanium berlapis platinum bermutu tinggi"
+      },
+      "Plate_size": {
+        "title": "Plate size",
+        "desc": "135 mm x 75 mm"
+      },
+      "Negative_ORP": {
+        "title": "Negative ORP",
+        "desc": "Up to -800 mV"
+      },
+      "pH_Setting": {
+        "title": "pH Setting",
+        "desc": "2.5, 6.0, 7.0, 8.5, 9.0, 9.5 and 11.5"
+      },
+      "Generates": {
+        "title": "Generates",
+        "desc": "5 water types (Kangen, Clean, Beauty, Strong Acidic and Strong Kangen)"
+      },
+      "Wattage": {
+        "title": "Wattage",
+        "desc": "230 watt"
+      },
+      "Weight": {
+        "title": "Weight",
+        "desc": "5 Kg"
+      },
+      "Dimensions": {
+        "title": "Dimensions",
+        "desc": "264 mm x 338 mm x 171 mm"
+      },
+      "Ease_of_Use": {
+        "title": "Ease of use",
+        "desc": "Sepenuhnya otomatis, sangat mudah dioperasikan hanya dengan menekan tombol"
+      },
+      "Languages": {
+        "title": "Languages",
+        "desc": "English, German, French, Italian and Spanish"
+      },
+      "Voice_Guidance": {
+        "title": "Voice Guidance",
+        "desc": "Yes"
+      },
+      "Warranty": {
+        "title": "Warranty",
+        "desc": "5 tahun"
+      }
+    },
+    "Anespa-DX": {
+      "name": "Anespa DX",
+      "price": "35631000",
+      "img": "/anespa.jpg",
+      "desc": "Apakah Anda ingin mengubah kamar mandi biasa menjadi resor sumber air panas alami? Jika ya maka Anespa DX adalah jawaban atas keinginan Anda. Anespa DX adalah unit penyaringan air kamar mandi yang dapat menghasilkan aliran air mineral terionisasi yang sehat secara terus menerus. Dilengkapi dengan cartridge keramik yang menghilangkan hampir 100% klorin dan zat berbahaya lainnya dalam air keran Anda, Anespa DX akan membuat air mandi Anda lebih aman dan sehat untuk kulit dan rambut Anda. Selain filtrasi keramik, Anespa DX juga dilengkapi dengan Tufa, batu MIC dan Power stone yang diambil langsung dari sumber air panas Futamata Radium di Hokkaido, Jepang. Batu-batu ini memberikan efek lembut dan menenangkan pada air seperti di sumber air panas Jepang. Dengan menggunakan Anespa DX, Anda bisa menikmati sensasi mandi spa yang sama di rumah Anda sendiri.",
+      "Plates": {
+        "title": "Filtration Media",
+        "desc": "Kartrid keramik besar yang dapat menghilangkan hampir 100% klorin dan zat berbahaya dari air"
+      },
+      "Plate_size": {
+        "title": "Special stones",
+        "desc": "TUFA, batu MIC dan Power stone diambil dari sumber air panas Futamata Radium, Hokkaido, Jepang"
+      },
+      "Negative_ORP": {
+        "title": "Negative ORP",
+        "desc": "-"
+      },
+      "pH_Setting": {
+        "title": "pH Range",
+        "desc": "Sama seperti air keran"
+      },
+      "Generates": {
+        "title": "Generates",
+        "desc": "Air ion mineral untuk mandi atau pancuran Anda"
+      },
+      "Wattage": {
+        "title": "Wattage",
+        "desc": "Tidak menggunakan listrik apa pun"
+      },
+      "Weight": {
+        "title": "Weight",
+        "desc": "2.5 Kg"
+      },
+      "Dimensions": {
+        "title": "Dimensions W x Diameter",
+        "desc": "130 mm x 346 mm"
+      },
+      "Ease_of_Use": {
+        "title": "Ease of use",
+        "desc": "Sangat mudah untuk menginstal dan mengoperasikan"
+      },
+      "Languages": {
+        "title": "Languages",
+        "desc": "-"
+      },
+      "Voice_Guidance": {
+        "title": "Voice Guidance",
+        "desc": "-"
+      },
+      "Warranty": {
+        "title": "Warranty",
+        "desc": "3 tahun"
+      }
+    }
+  },
+  "Contact": {
+    "title": "Bagi Anda yang tinggal di Batam - Indonesia, Anda dipersilakan untuk mengunjungi kantor dan showroom Kangen Water® kami yang berlokasi di Batam. Kunjungan dapat diatur melalui perjanjian.",
+    "desc": "Alamat:"
+  },
+  "Navbar": {
+    "About": {
+      "title": "Tentang",
+      "desc": "Apa yang membuat Enagic berbeda?"
+    },
+    "types": {
+      "title": "5 Jenis Air",
+      "desc": "Tubuh manusia terdiri dari lebih dari 70% air."
+    },
+    "kangen": {
+      "title": "Apa itu Air Kangen?",
+      "desc": "Kangen berarti 'kembali ke asal' dalam bahasa Jepang."
+    },
+    "becomes": {
+      "title": "Menjadi Air Kangen",
+      "desc": "Bagaimana air keran Anda menjadi Kangen Water."
     }
   }
 }

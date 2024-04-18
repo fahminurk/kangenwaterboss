@@ -1,6 +1,5 @@
 import ProductSection from "@/components/ProductSection";
 import CountSection from "@/components/countSection";
-import { certified } from "@/constants";
 import { useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
 
@@ -38,7 +37,7 @@ export default function Home({
       <div className="flex flex-col container gap-10">
         <div className="flex flex-col gap-4 border">
           <p className="text-center font-bold text-2xl md:text-4xl p-5 bg-blue-900 text-white">
-            {t("certified.title")}
+            {t("certified")}
           </p>
           <div className="md:[&>*:nth-child(even)]:flex-row-reverse md:[&>*:nth-child(even)]:bg-blue-900 md:[&>*:nth-child(even)]:text-white flex flex-col gap-4">
             {keys.map((key) => (

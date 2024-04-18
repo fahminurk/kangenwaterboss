@@ -227,6 +227,6 @@ Through the process of electrolysis, your tap water becomes Hydrogen rich Kangen
   {
     title: "Alkaline",
     desc: "As with most things in life, optimal health begins with balance. Our bodies must maintain a pH balance of 7.365, which is slightly alkaline. A pH scale is used to determine whether a substance is acidic or alkaline. On this scale 7.0 is neutral. Anything above 7 is considered alkaline and anything below 7 is considered acidic.",
-    img: "alkaline.jpg",
+    img: "/alkaline.jpg",
   },
 ];
