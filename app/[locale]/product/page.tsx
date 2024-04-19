@@ -1,4 +1,3 @@
-import { product } from "@/constants";
 import React from "react";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { formatToIDR } from "@/lib/utils";
