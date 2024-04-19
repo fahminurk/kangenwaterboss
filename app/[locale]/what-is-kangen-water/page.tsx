@@ -10,11 +10,11 @@ const page = ({ params: { locale } }: { params: { locale: string } }) => {
   return (
     <div className=" flex flex-col gap-5 pb-10">
       <div className="flex flex-col justify-center items-center gap-5 bg-gradient-to-b from-blue-900 to-white p-5">
-        <div className="flex flex-col items-center gap-5 rounded-xl p-10 bg-white md:bg-gradient-to-b">
-          <p className="font-bold text-2xl md:text-6xl text-blue-900 md:text-white">
+        <div className="flex flex-col items-center gap-5 rounded-xl p-4 md:p-10 bg-white md:bg-gradient-to-b">
+          <p className="text-center font-bold text-2xl md:text-6xl text-blue-900 md:text-white">
             {t("title")}
           </p>
-          <p className="text-justify font-serif max-w-[600px] text-white">
+          <p className="text-justify font-serif max-w-[600px] md:text-white">
             {t("desc")}
           </p>
         </div>

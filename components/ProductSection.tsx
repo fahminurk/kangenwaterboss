@@ -5,19 +5,27 @@ import { Link } from "@/navigation";
 
 const ProductSection = () => {
   const t = useTranslations("Home");
-  const locales = ["en", "id"] as const;
+  const p = useTranslations("Products");
+  const keys = [
+    "Leveluk-JR4",
+    "Leveluk-Kangen-8",
+    "Leveluk-SUPER-501",
+    "Leveluk-SD-501",
+  ] as const;
   return (
     <div className="flex flex-col gap-2">
       <p className="text-center font-bold text-4xl p-5">{t("products")}</p>
-      <div className="flex flex-col sm:flex-row gap-5 justify-between">
-        {product.map((item, i) => (
-          <div key={item.name} className="">
-            <img src={item.img} alt="" className="w-full" />
-            <p className=" font-bold text-white p-1 text-center bg-blue-900 w-full sm:text-xs md:text-base">
-              {item.name}
-            </p>
-          </div>
-        ))}
+      <div className="flex flex-col md:flex-row gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 justify-between">
+          {keys.map((item, i) => (
+            <Link href={`/product/${item}`} key={p(`${item}.img`)} className="">
+              <img src={p(`${item}.img`)} alt="" className="w-full" />
+              <p className=" font-bold text-white p-1 text-center bg-blue-900 w-full sm:text-xs md:text-base">
+                {p(`${item}.name`)}
+              </p>
+            </Link>
+          ))}
+        </div>
         <Link
           href={"/product"}
           style={{ writingMode: "vertical-lr" }}

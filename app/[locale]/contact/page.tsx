@@ -40,13 +40,10 @@ const page = () => {
   }
 
   return (
-    <div className=" flex flex-col gap-10 ">
-      <p className="p-16 text-center bg-gradient-to-b from-blue-900 to-white text-white text-6xl font-bold">
-        CONTACT
-      </p>
+    <div className=" flex flex-col gap-10 py-10">
       <div className="container grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div className="flex flex-col gap-5">
-          <div className="flex">
+          <div className="flex flex-col items-center gap-5">
             <img src="/arie.jpg" alt="" className="w-52 h-52 object-cover" />
             <div className="flex flex-col flex-1 justify-center items-center">
               <p className="font-bold text-xl md:text-4xl">ARIE SUBIJANTO</p>
