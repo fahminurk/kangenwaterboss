@@ -20,14 +20,14 @@ const WhatsappToggle = () => {
             target="_blank"
             className="p-2 rounded-lg bg-white hover:bg-green-600 hover:text-white"
           >
-            Rijana Mauluddin
+            Rijana
           </a>
           <a
             href="https://wa.me/6282173766879"
             target="_blank"
             className="p-2 rounded-lg bg-white hover:bg-green-600 hover:text-white"
           >
-            Arie Subijanto
+            Arie
           </a>
         </div>
         <FaSquareWhatsapp
