@@ -46,7 +46,7 @@ const page = () => {
           <div className="flex flex-col items-center gap-5">
             <img src="/arie.jpg" alt="" className="w-52 h-52 object-cover" />
             <div className="flex flex-col flex-1 justify-center items-center">
-              <p className="font-bold text-xl md:text-4xl">ARIE SUBIJANTO</p>
+              <p className="font-bold text-xl md:text-4xl">ARIE</p>
               <p className="text-sm md:text-base font-light">
                 DISTRIBUTOR - 6A
               </p>
