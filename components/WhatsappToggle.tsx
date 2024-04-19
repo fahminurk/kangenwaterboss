@@ -14,7 +14,7 @@ const WhatsappToggle = () => {
       >
         chat
       </div>
-      <FaSquareWhatsapp className="text-5xl md:text-7xl text-green-500 cursor-pointer z-10" />
+      <FaSquareWhatsapp className="text-5xl md:text-7xl text-green-500 cursor-pointer zoom-in-90" />
     </a>
   );
 };
