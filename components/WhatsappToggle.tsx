@@ -11,7 +11,7 @@ const WhatsappToggle = () => {
       <div className="flex flex-col w-full items-end">
         <div
           className={cn(
-            "bg-green-500 w-full flex flex-col gap-2 font-medium p-2 md:text-4xl rounded-lg transition-all  translate-y-10 opacity-0 z-20",
+            "bg-green-500 w-full flex flex-col gap-2 font-medium p-2 rounded-lg transition-all  translate-y-10 opacity-0 z-20",
             chat && "opacity-100 -translate-y-1"
           )}
         >
