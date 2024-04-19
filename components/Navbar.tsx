@@ -50,7 +50,9 @@ const Navbar = ({ locale }: { locale: string }) => {
     <>
       <div className="flex flex-col p-4 font-bold bg-gradient-to-t bg-blue-900">
         <div className="flex flex-col justify-center items-center">
-          <img src="/enagic.png" alt="logo" className="w-20 h-20" />
+          <Link href={"/"}>
+            <img src="/e.png" alt="logo" className="w-20 h-20" />
+          </Link>
           <p className="text-2xl md:text-4xl text-white">KANGEN WATER BOSS</p>
         </div>
       </div>
@@ -64,7 +66,7 @@ const Navbar = ({ locale }: { locale: string }) => {
         {!isScrolled ? (
           <div />
         ) : (
-          <img src="/enagicblue.png" alt="logo" className="h-10" />
+          <img src="/enagic_independent.png" alt="logo" className="h-10" />
         )}
         <BurgerNavbar isScrolled={isScrolled} locale={locale} />
         <NavigationMenu className="hidden md:block">

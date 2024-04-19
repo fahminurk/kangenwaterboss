@@ -59,7 +59,7 @@ const BurgerNavbar: React.FC<{ isScrolled: boolean; locale: string }> = ({
         <DrawerHeader>
           <div className="flex items-center justify-between">
             <div className="w-14" />
-            <img src="/enagicblue.png" alt="" className="h-16" />
+            <img src="/enagic_independent.png" alt="" className="h-16" />
             <Select onValueChange={handleChange} defaultValue={locale}>
               <SelectTrigger className="max-w-max bg-blue-900 text-white">
                 <SelectValue defaultValue={locale} />
