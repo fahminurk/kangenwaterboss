@@ -1,7 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import React from "react";
-import { FaSquareWhatsapp } from "react-icons/fa6";
+import { FaSquareWhatsapp, FaPhoneFlip } from "react-icons/fa6";
 
 const WhatsappToggle = () => {
   const [chat, setChat] = React.useState(false);
@@ -18,16 +18,18 @@ const WhatsappToggle = () => {
           <a
             href="https://wa.me/628117019667"
             target="_blank"
-            className="p-2 rounded-lg bg-white hover:bg-green-600 hover:text-white"
+            className="p-2 rounded-lg flex gap-5 bg-white justify-between items-center hover:bg-green-600 hover:text-white"
           >
-            Rijana
+            <p>Rijana</p>
+            <FaPhoneFlip className="text-green-500" />
           </a>
           <a
             href="https://wa.me/6282173766879"
             target="_blank"
-            className="p-2 rounded-lg bg-white hover:bg-green-600 hover:text-white"
+            className="p-2 rounded-lg flex gap-5 justify-between items-center bg-white hover:bg-green-600 hover:text-white"
           >
-            Arie
+            <p>Arie</p>
+            <FaPhoneFlip className="text-green-500" />
           </a>
         </div>
         <FaSquareWhatsapp
