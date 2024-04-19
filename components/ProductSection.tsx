@@ -15,7 +15,7 @@ const ProductSection = () => {
   return (
     <div className="flex flex-col gap-2">
       <p className="text-center font-bold text-4xl p-5">{t("products")}</p>
-      <div className="flex flex-col md:flex-row gap-5">
+      <div className="flex flex-col sm:flex-row gap-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 justify-between">
           {keys.map((item, i) => (
             <Link href={`/product/${item}`} key={p(`${item}.img`)} className="">
