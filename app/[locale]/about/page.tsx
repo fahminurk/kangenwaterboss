@@ -1,9 +1,7 @@
 import { useTranslations } from "next-intl";
-import { unstable_setRequestLocale } from "next-intl/server";
 import React from "react";
 
-const page = ({ params: { locale } }: { params: { locale: string } }) => {
-  unstable_setRequestLocale(locale);
+const page = () => {
   const t = useTranslations("About");
   const kangen = ["kangen", "made", "history"] as const;
   const certifications = ["iso", "wqa", "dsa", "bbb"] as const;
@@ -18,10 +16,8 @@ const page = ({ params: { locale } }: { params: { locale: string } }) => {
                 {t(`${key}.title`)}
               </p>
             </div>
-            <div className="text-lg lg:w-1/2 flex justify-center items-center px-12 md:px-20 bg-white">
-              <p className="text-justify text-sm md:text-base">
-                {t(`${key}.desc`)}
-              </p>
+            <div className="md:text-lg lg:w-1/2 flex justify-center items-center px-4 md:px-20 bg-white">
+              <p className="text-justify">{t(`${key}.desc`)}</p>
             </div>
           </div>
         ))}

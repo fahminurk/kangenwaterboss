@@ -14,18 +14,18 @@ const page = ({ params: { locale } }: { params: { locale: string } }) => {
           <p className="text-center font-bold text-2xl md:text-6xl text-blue-900 md:text-white">
             {t("title")}
           </p>
-          <p className="text-justify font-serif max-w-[600px] md:text-white">
+          <p className="text-justify font-light max-w-[600px] md:text-white">
             {t("desc")}
           </p>
         </div>
       </div>
       <div className="container flex flex-col gap-5">
         <div className=" flex flex-col md:grid grid-cols-1 gap-5 justify-center items-center md:grid-cols-3">
-          <p className="text-justify font-serif p-5 rounded-xl bg-blue-900 text-white">
+          <p className="text-justify font-light p-5 rounded-xl bg-blue-900 text-white">
             {t("batu1")}
           </p>
           <img src="/what_is_kangen_stones.jpg" alt="" />
-          <div className="flex flex-col gap-2 text-justify font-serif p-5 rounded-xl bg-blue-900 text-white">
+          <div className="flex flex-col gap-2 text-justify font-light p-5 rounded-xl bg-blue-900 text-white">
             <p>{t("batu2")}</p>
             <p>{t("batu3")}</p>
           </div>

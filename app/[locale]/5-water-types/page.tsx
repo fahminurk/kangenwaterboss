@@ -1,9 +1,7 @@
 import { useTranslations } from "next-intl";
-import { unstable_setRequestLocale } from "next-intl/server";
 import React from "react";
 
-const page = ({ params: { locale } }: { params: { locale: string } }) => {
-  unstable_setRequestLocale(locale);
+const page = () => {
   const t = useTranslations("Water_type");
   const type = ["strong", "kangen", "clean", "beauty", "acid"] as const;
 

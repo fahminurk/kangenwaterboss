@@ -28,7 +28,7 @@ const page = () => {
     }
 
     emailjs
-      .sendForm("service_gurnsc2", "template_kpeoyjq", form.current, {
+      .sendForm("service_zyesa6e", "template_kpeoyjq", form.current, {
         publicKey: "y60qGeWlSaVMhAgKy",
       })
       .then(() => {
@@ -40,7 +40,7 @@ const page = () => {
   }
 
   return (
-    <div className=" flex flex-col gap-10 py-10">
+    <div className=" flex flex-col gap-10 pt-10">
       <div className="container grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div className="flex flex-col gap-5">
           <div className="flex flex-col items-center gap-5">

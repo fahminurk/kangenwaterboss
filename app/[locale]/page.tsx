@@ -1,14 +1,8 @@
 import ProductSection from "@/components/ProductSection";
 import CountSection from "@/components/countSection";
 import { useTranslations } from "next-intl";
-import { unstable_setRequestLocale } from "next-intl/server";
 
-export default function Home({
-  params: { locale },
-}: {
-  params: { locale: string };
-}) {
-  unstable_setRequestLocale(locale);
+export default function Home() {
   const t = useTranslations("Home");
   const keys = ["wqa", "ms", "dnv"] as const;
 
@@ -31,8 +25,6 @@ export default function Home({
           </div>
         </div>
       </div>
-
-      {/*  */}
 
       <div className="flex flex-col container gap-10">
         <div className="flex flex-col gap-4 border">

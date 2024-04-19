@@ -44,7 +44,7 @@ const page = ({ params }: { params: { name: string } }) => {
           alt=""
           className="w-full object-cover md:sticky lg:relative lg:top-0 top-20"
         />
-        <div className="flex flex-col gap-5 p-5">
+        <div className="flex flex-col gap-5 ">
           <div className="flex justify-end gap-2">
             {products.indexOf(name) !== 0 && (
               <FaArrowLeft
