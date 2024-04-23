@@ -2,6 +2,11 @@ import ProductSection from "@/components/ProductSection";
 import CountSection from "@/components/countSection";
 import { useTranslations } from "next-intl";
 
+import VideoCarousel from "@/components/VideoCarousel";
+import { cn } from "@/lib/utils";
+
+const imgs = ["/koran_tempo_2.jpg", "/koran_tempo.jpg", "/plastic.jpg"];
+
 export default function Home() {
   const t = useTranslations("Home");
   const keys = ["wqa", "ms", "dnv"] as const;
@@ -26,6 +31,8 @@ export default function Home() {
         </div>
       </div>
 
+      <VideoCarousel />
+
       <div className="flex flex-col container gap-10">
         <div className="flex flex-col gap-4 border">
           <p className="text-center font-bold text-2xl md:text-4xl p-5 bg-blue-900 text-white">
@@ -49,6 +56,20 @@ export default function Home() {
           </div>
         </div>
         <CountSection />
+        <div className="grid gap-2 grid-cols-3">
+          {imgs.map((img, i) => (
+            <img
+              key={img}
+              src={img}
+              alt=""
+              className={cn(
+                "w-full h-full object-cover",
+                i === 0 && "first:col-span-2 first:row-span-2 grayscale",
+                i > 0 && "col-start-3"
+              )}
+            />
+          ))}
+        </div>
         <ProductSection />
       </div>
     </div>
