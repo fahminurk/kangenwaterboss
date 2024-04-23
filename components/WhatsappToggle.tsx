@@ -16,6 +16,14 @@ const WhatsappToggle = () => {
           )}
         >
           <a
+            href="https://wa.me/6281364226526"
+            target="_blank"
+            className="p-2 rounded-lg flex gap-5 justify-between items-center bg-white hover:bg-green-600 hover:text-white"
+          >
+            <p>Dodi</p>
+            <FaPhoneFlip className="text-green-500" />
+          </a>
+          <a
             href="https://wa.me/628117019667"
             target="_blank"
             className="p-2 rounded-lg flex gap-5 bg-white justify-between items-center hover:bg-green-600 hover:text-white"
@@ -23,8 +31,9 @@ const WhatsappToggle = () => {
             <p>Rijana</p>
             <FaPhoneFlip className="text-green-500" />
           </a>
+
           <a
-            href="https://wa.me/6282173766879"
+            href="https://wa.me/6281268363615"
             target="_blank"
             className="p-2 rounded-lg flex gap-5 justify-between items-center bg-white hover:bg-green-600 hover:text-white"
           >
