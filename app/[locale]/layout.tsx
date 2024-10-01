@@ -8,6 +8,7 @@ import { NextIntlClientProvider, useMessages } from "next-intl";
 import { locales } from "@/navigation";
 import { notFound } from "next/navigation";
 import WhatsappToggle from "@/components/WhatsappToggle";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -44,8 +45,17 @@ export default function RootLayout({
   return (
     <html lang={locale}>
       <Toaster />
+      <GoogleTagManager gtmId="GTM-TV8ZLPLP" />
       <NextIntlClientProvider locale={locale} messages={msg}>
         <body className={`${inter.className}`}>
+          <noscript>
+            <iframe
+              src="https://www.googletagmanager.com/ns.html?id=GTM-TV8ZLPLP"
+              height="0"
+              width="0"
+              style={{ display: "none", visibility: "hidden" }}
+            ></iframe>
+          </noscript>
           <Navbar locale={locale} />
           <WhatsappToggle />
           {children}
@@ -55,3 +65,4 @@ export default function RootLayout({
     </html>
   );
 }
+//GTM-TV8ZLPLP
